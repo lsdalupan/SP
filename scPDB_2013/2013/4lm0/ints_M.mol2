@@ -1,0 +1,33 @@
+#    Name: 4lm0_5NI_1_INTS_M
+#    Modification time : Tue Mar 25 11:16:24 2014
+
+@<TRIPOS>MOLECULE
+4lm0_5NI_1_INTS_M
+   12     0     6     0     0
+SMALL
+NO_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 CA          4.3770    8.9660   42.1475 C.3       2 GLC5        0.0000 
+      2 CA          5.3920   10.8450   41.8160 C.3       6 GLL5        0.0000 
+      3 CA          3.3620    7.0870   42.4790 C.3       4 GLP5        0.0000 
+      4 N           2.7095   16.0795   42.0890 N.am      1 SEC2        0.0000 
+      5 N           2.9650   14.6680   41.9760 N.am      5 SEL2        0.0000 
+      6 N           2.4540   17.4910   42.2020 N.am      3 SEP2        0.0000 
+      7 CA          6.1602   14.0143   43.4370 C.3       2 GLC5        0.0000 
+      8 CA          4.1180   13.0390   42.9090 C.3       6 GLL5        0.0000 
+      9 CA          7.8720   15.4250   43.5290 C.3       4 GLP5        0.0000 
+     10 CA          4.7710   13.4047   39.4285 C.3       2 GLC5        0.0000 
+     11 CA          4.0920   12.8230   41.5310 C.3       6 GLL5        0.0000 
+     12 CA          5.1330   14.5360   37.6140 C.3       4 GLP5        0.0000 
+@<TRIPOS>BOND
+@<TRIPOS>SUBSTRUCTURE
+     1 SEC2        4 GROUP        1 X    SEC  0     ROOT SEC X 2
+     2 GLC5        1 GROUP        1 X    GLC  0     **** GLC X 6
+     3 SEP2        6 GROUP        1 Y    SEP  0     ROOT SEP Y 9
+     4 GLP5        3 GROUP        1 Y    GLP  0     **** GLP Y 13
+     5 SEL2        5 GROUP        1 Z    SEL  0     ROOT SEL Z 16
+     6 GLL5        2 GROUP        1 Z    GLL  0     **** GLL Z 20
+@<TRIPOS>SET
+

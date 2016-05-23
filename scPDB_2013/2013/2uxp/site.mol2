@@ -1,0 +1,915 @@
+#    Name: 2uxp_CLM_2_site
+#    Modification time : Tue Mar 25 00:26:01 2014
+
+@<TRIPOS>MOLECULE
+2uxp_CLM_2_site
+  435   426    28     0     1
+PROTEIN
+NO_CHARGES
+
+
+@<TRIPOS>DICT
+BIOPOLYMER macromol
+@<TRIPOS>ATOM
+      1 N          -1.8570   22.8590   15.4430 N.am      1 LEU63       0.0000 BACKBONE|DICT|DIRECT
+      2 CA         -2.0430   24.1530   14.7900 C.3       1 LEU63       0.0000 BACKBONE|DICT|DIRECT
+      3 C          -2.9100   25.0690   15.6570 C.2       1 LEU63       0.0000 BACKBONE|DICT|DIRECT
+      4 O          -2.4830   26.1660   16.0300 O.2       1 LEU63       0.0000 BACKBONE|DICT|DIRECT
+      5 CB         -2.6560   23.9680   13.3910 C.3       1 LEU63       0.0000 DICT
+      6 CG         -3.1540   25.1530   12.5230 C.3       1 LEU63       0.0000 DICT
+      7 CD1        -2.1390   26.3420   12.4670 C.3       1 LEU63       0.0000 DICT
+      8 CD2        -3.5040   24.6610   11.1020 C.3       1 LEU63       0.0000 DICT
+      9 H          -2.0430   22.0230   14.9280 H         1 LEU63       0.0000 BACKBONE|DICT|ESSENTIAL|DIRECT
+     10 HA         -1.0730   24.6400   14.6600 H         1 LEU63       0.0000 BACKBONE|DICT|DIRECT
+     11 HB1        -3.5240   23.3060   13.5260 H         1 LEU63       0.0000 DICT
+     12 HB2        -1.8910   23.4530   12.7910 H         1 LEU63       0.0000 DICT
+     13 HG         -4.0790   25.5310   12.9740 H         1 LEU63       0.0000 DICT
+     14 HD11       -1.2590   26.0610   12.0850 H         1 LEU63       0.0000 DICT
+     15 HD12       -2.4780   27.0930   11.9010 H         1 LEU63       0.0000 DICT
+     16 HD13       -1.9580   26.7190   13.3760 H         1 LEU63       0.0000 DICT
+     17 HD21       -2.7140   24.2510   10.6460 H         1 LEU63       0.0000 DICT
+     18 HD22       -4.2260   23.9690   11.1160 H         1 LEU63       0.0000 DICT
+     19 HD23       -3.8240   25.4080   10.5190 H         1 LEU63       0.0000 DICT
+     20 N          -1.6260   26.9790   18.9570 N.am      2 LEU66       0.0000 BACKBONE|DICT|DIRECT
+     21 CA         -0.8600   28.2230   18.8180 C.3       2 LEU66       0.0000 BACKBONE|DICT|DIRECT
+     22 C          -1.6560   29.5200   19.0320 C.2       2 LEU66       0.0000 BACKBONE|DICT|DIRECT
+     23 O          -1.1150   30.4920   19.5630 O.2       2 LEU66       0.0000 BACKBONE|DICT|DIRECT
+     24 CB         -0.1810   28.2930   17.4490 C.3       2 LEU66       0.0000 DICT
+     25 CG          0.9010   27.3020   17.0370 C.3       2 LEU66       0.0000 DICT
+     26 CD1         1.3940   27.7070   15.6880 C.3       2 LEU66       0.0000 DICT
+     27 CD2         2.0600   27.2330   18.0200 C.3       2 LEU66       0.0000 DICT
+     28 H          -1.6040   26.3140   18.2100 H         2 LEU66       0.0000 BACKBONE|DICT|ESSENTIAL|DIRECT
+     29 HA         -0.0340   28.2320   19.5620 H         2 LEU66       0.0000 BACKBONE|DICT|DIRECT
+     30 HB1         0.2740   29.2920   17.3810 H         2 LEU66       0.0000 DICT
+     31 HB2        -0.9830   28.2030   16.7020 H         2 LEU66       0.0000 DICT
+     32 HG          0.4480   26.3190   16.9550 H         2 LEU66       0.0000 DICT
+     33 HD11        1.7760   28.6310   15.6940 H         2 LEU66       0.0000 DICT
+     34 HD12        2.1120   27.0960   15.3560 H         2 LEU66       0.0000 DICT
+     35 HD13        0.6620   27.6970   15.0070 H         2 LEU66       0.0000 DICT
+     36 HD21        2.7570   26.5790   17.7270 H         2 LEU66       0.0000 DICT
+     37 HD22        2.5130   28.1180   18.1220 H         2 LEU66       0.0000 DICT
+     38 HD23        1.7580   26.9510   18.9310 H         2 LEU66       0.0000 DICT
+     39 N          -2.9210   29.5450   18.6150 N.am      3 HIS67       0.0000 BACKBONE|DICT|DIRECT
+     40 CA         -3.7240   30.7870   18.6630 C.3       3 HIS67       0.0000 BACKBONE|DICT|DIRECT
+     41 C          -4.0830   31.2660   20.0750 C.2       3 HIS67       0.0000 BACKBONE|DICT|DIRECT
+     42 O          -4.2030   32.4640   20.3060 O.2       3 HIS67       0.0000 BACKBONE|DICT|DIRECT
+     43 CB         -5.0030   30.6580   17.8270 C.3       3 HIS67       0.0000 DICT
+     44 CG         -4.7730   30.0630   16.4720 C.2       3 HIS67       0.0000 DICT
+     45 ND1        -5.8060   29.6400   15.6600 N.2       3 HIS67       0.0000 DICT
+     46 CD2        -3.6290   29.7940   15.7900 C.2       3 HIS67       0.0000 DICT
+     47 CE1        -5.3100   29.1580   14.5290 C.2       3 HIS67       0.0000 DICT
+     48 NE2        -3.9910   29.2300   14.5860 N.pl3     3 HIS67       0.0000 DICT
+     49 H          -3.3370   28.7070   18.2620 H         3 HIS67       0.0000 BACKBONE|DICT|ESSENTIAL|DIRECT
+     50 HA         -3.1370   31.6090   18.1900 H         3 HIS67       0.0000 BACKBONE|DICT|DIRECT
+     51 HB1        -5.4370   31.6600   17.6980 H         3 HIS67       0.0000 DICT
+     52 HB2        -5.7120   30.0180   18.3720 H         3 HIS67       0.0000 DICT
+     53 HD2        -2.6960   29.9720   16.1040 H         3 HIS67       0.0000 DICT
+     54 HE1        -5.8430   28.8000   13.7620 H         3 HIS67       0.0000 DICT
+     55 HE2        -3.3600   28.9250   13.8730 H         3 HIS67       0.0000 DICT|ESSENTIAL
+     56 N          -4.2440   30.3160   20.9990 N.am      4 GLU68       0.0000 BACKBONE|DICT|DIRECT
+     57 CA         -4.6970   30.5930   22.3620 C.3       4 GLU68       0.0000 BACKBONE|DICT|DIRECT
+     58 C          -4.0040   31.7780   23.0250 C.2       4 GLU68       0.0000 BACKBONE|DICT|DIRECT
+     59 O          -4.6380   32.7770   23.3280 O.2       4 GLU68       0.0000 BACKBONE|DICT|DIRECT
+     60 CB         -4.5280   29.3500   23.2420 C.3       4 GLU68       0.0000 DICT
+     61 CG         -5.2580   28.1100   22.7360 C.3       4 GLU68       0.0000 DICT
+     62 CD         -5.3480   27.0200   23.8090 C.2       4 GLU68       0.0000 DICT
+     63 OE1        -5.8610   27.3100   24.9190 O.co2     4 GLU68      -0.5000 DICT
+     64 OE2        -4.9170   25.8700   23.5400 O.co2     4 GLU68      -0.5000 DICT
+     65 H          -4.0450   29.3690   20.7470 H         4 GLU68       0.0000 BACKBONE|DICT|ESSENTIAL|DIRECT
+     66 HA         -5.7810   30.8130   22.3510 H         4 GLU68       0.0000 BACKBONE|DICT|DIRECT
+     67 HB1        -4.9090   29.5860   24.2460 H         4 GLU68       0.0000 DICT
+     68 HB2        -3.4550   29.1160   23.3020 H         4 GLU68       0.0000 DICT
+     69 HG1        -4.7160   27.7090   21.8670 H         4 GLU68       0.0000 DICT|ESSENTIAL
+     70 HG2        -6.2760   28.3960   22.4340 H         4 GLU68       0.0000 DICT
+     71 N          -2.3530   34.2710   22.2500 N.am      5 HIS70       0.0000 BACKBONE|DICT|DIRECT
+     72 CA         -2.5020   35.6160   21.6780 C.3       5 HIS70       0.0000 BACKBONE|DICT|DIRECT
+     73 C          -3.9480   36.0970   21.5990 C.2       5 HIS70       0.0000 BACKBONE|DICT|DIRECT
+     74 O          -4.1950   37.2520   21.2470 O.2       5 HIS70       0.0000 BACKBONE|DICT|DIRECT
+     75 CB         -1.8730   35.6740   20.2840 C.3       5 HIS70       0.0000 DICT
+     76 CG         -0.5680   34.9540   20.1820 C.2       5 HIS70       0.0000 DICT
+     77 ND1         0.4880   35.2060   21.0330 N.2       5 HIS70       0.0000 DICT
+     78 CD2        -0.1480   33.9860   19.3310 C.2       5 HIS70       0.0000 DICT
+     79 CE1         1.5010   34.4220   20.7120 C.2       5 HIS70       0.0000 DICT
+     80 NE2         1.1420   33.6730   19.6820 N.pl3     5 HIS70       0.0000 DICT
+     81 H          -2.4620   33.4770   21.6520 H         5 HIS70       0.0000 BACKBONE|DICT|ESSENTIAL|DIRECT
+     82 HA         -1.9480   36.3410   22.2980 H         5 HIS70       0.0000 BACKBONE|DICT|DIRECT
+     83 HB1        -1.7080   36.7290   20.0210 H         5 HIS70       0.0000 DICT
+     84 HB2        -2.5750   35.2230   19.5680 H         5 HIS70       0.0000 DICT
+     85 HD2        -0.6780   33.5770   18.5880 H         5 HIS70       0.0000 DICT
+     86 HE1         2.3900   34.3980   21.1700 H         5 HIS70       0.0000 DICT
+     87 HE2         1.7170   32.9900   19.2320 H         5 HIS70       0.0000 DICT|ESSENTIAL
+     88 N          -4.9960   39.7420   22.8480 N.am      6 LEU73       0.0000 BACKBONE|DICT|DIRECT
+     89 CA         -4.3220   40.7830   22.0690 C.3       6 LEU73       0.0000 BACKBONE|DICT|DIRECT
+     90 C          -4.8400   40.8860   20.6290 C.2       6 LEU73       0.0000 BACKBONE|DICT|DIRECT
+     91 O          -4.9670   41.9880   20.1050 O.2       6 LEU73       0.0000 BACKBONE|DICT|DIRECT
+     92 CB         -2.7980   40.6240   22.1080 C.3       6 LEU73       0.0000 DICT
+     93 CG         -2.0840   41.1400   23.3720 C.3       6 LEU73       0.0000 DICT
+     94 CD1        -0.5640   40.9830   23.2460 C.3       6 LEU73       0.0000 DICT
+     95 CD2        -2.4380   42.5950   23.6520 C.3       6 LEU73       0.0000 DICT
+     96 H          -4.4590   38.9960   23.2420 H         6 LEU73       0.0000 BACKBONE|DICT|ESSENTIAL|DIRECT
+     97 HA         -4.5380   41.7730   22.5490 H         6 LEU73       0.0000 BACKBONE|DICT|DIRECT
+     98 HB1        -2.3840   41.1660   21.2450 H         6 LEU73       0.0000 DICT
+     99 HB2        -2.5720   39.5520   22.0110 H         6 LEU73       0.0000 DICT
+    100 HG         -2.4150   40.5380   24.2170 H         6 LEU73       0.0000 DICT
+    101 HD11       -0.0880   41.3140   24.0610 H         6 LEU73       0.0000 DICT
+    102 HD12       -0.2990   40.0270   23.1190 H         6 LEU73       0.0000 DICT
+    103 HD13       -0.2010   41.4940   22.4670 H         6 LEU73       0.0000 DICT
+    104 HD21       -1.9780   42.9380   24.4710 H         6 LEU73       0.0000 DICT
+    105 HD22       -2.1750   43.1940   22.8950 H         6 LEU73       0.0000 DICT
+    106 HD23       -3.4200   42.7170   23.7950 H         6 LEU73       0.0000 DICT
+    107 N          -5.1610   39.7480   20.0110 N.am      7 ALA74       0.0000 BACKBONE|DICT|DIRECT
+    108 CA         -5.7430   39.7210   18.6640 C.3       7 ALA74       0.0000 BACKBONE|DICT|DIRECT
+    109 C          -7.1060   40.3940   18.6250 C.2       7 ALA74       0.0000 BACKBONE|DICT|DIRECT
+    110 O          -7.2740   41.4120   17.9560 O.2       7 ALA74       0.0000 BACKBONE|DICT|DIRECT
+    111 CB         -5.8470   38.2980   18.1580 C.3       7 ALA74       0.0000 DICT
+    112 H          -5.0150   38.8140   20.4540 H         7 ALA74       0.0000 BACKBONE|DICT|ESSENTIAL|DIRECT
+    113 HA         -5.0850   40.2670   17.9750 H         7 ALA74       0.0000 BACKBONE|DICT|DIRECT
+    114 HB1        -6.2850   38.2980   17.1490 H         7 ALA74       0.0000 DICT
+    115 HB2        -4.8440   37.8470   18.1220 H         7 ALA74       0.0000 DICT
+    116 HB3        -6.4880   37.7140   18.8350 H         7 ALA74       0.0000 DICT
+    117 N          -8.0660   39.8250   19.3550 N.am      8 ARG75       0.0000 BACKBONE|DICT|DIRECT
+    118 CA         -9.4160   40.3800   19.4660 C.3       8 ARG75       0.0000 BACKBONE|DICT|DIRECT
+    119 C          -9.4110   41.8790   19.7450 C.2       8 ARG75       0.0000 BACKBONE|DICT|DIRECT
+    120 O         -10.2780   42.6150   19.2570 O.2       8 ARG75       0.0000 BACKBONE|DICT|DIRECT
+    121 CB        -10.1930   39.6670   20.5670 C.3       8 ARG75       0.0000 DICT
+    122 CG        -10.9110   38.3890   20.0900 C.3       8 ARG75       0.0000 DICT
+    123 CD        -11.2560   37.5590   21.3460 C.3       8 ARG75       0.0000 DICT
+    124 NE        -11.9810   36.3300   21.0210 N.pl3     8 ARG75       0.3330 DICT
+    125 CZ        -11.4630   35.2830   20.3700 C.cat     8 ARG75       0.0000 DICT
+    126 NH1       -10.2030   35.3030   19.9360 N.pl3     8 ARG75       0.3330 DICT
+    127 NH2       -12.2180   34.2150   20.1380 N.pl3     8 ARG75       0.3330 DICT
+    128 H          -7.8540   38.9820   19.8490 H         8 ARG75       0.0000 BACKBONE|DICT|ESSENTIAL|DIRECT
+    129 HA         -9.9620   40.2190   18.5310 H         8 ARG75       0.0000 BACKBONE|DICT|DIRECT
+    130 HB1       -10.9480   40.3610   20.9650 H         8 ARG75       0.0000 DICT
+    131 HB2        -9.4890   39.3920   21.3660 H         8 ARG75       0.0000 DICT
+    132 HG1       -10.2500   37.8110   19.4270 H         8 ARG75       0.0000 DICT|ESSENTIAL
+    133 HG2       -11.8320   38.6540   19.5500 H         8 ARG75       0.0000 DICT
+    134 HD1       -11.8800   38.1710   22.0130 H         8 ARG75       0.0000 
+    135 HD2       -10.3210   37.2920   21.8600 H         8 ARG75       0.0000 DICT
+    136 HE        -12.9910   36.3170   21.3480 H         8 ARG75       0.0000 DICT|ESSENTIAL
+    137 HH11       -9.8290   34.5130   19.4510 H         8 ARG75       0.0000 DICT|ESSENTIAL
+    138 HH12       -9.6320   36.1080   20.0960 H         8 ARG75       0.0000 DICT|ESSENTIAL
+    139 HH21      -11.8360   33.4290   19.6520 H         8 ARG75       0.0000 DICT|ESSENTIAL
+    140 HH22      -13.1680   34.1970   20.4500 H         8 ARG75       0.0000 DICT|ESSENTIAL
+    141 N          -6.9860   44.1680   18.8010 N.am      9 SER77       0.0000 BACKBONE|DICT|DIRECT
+    142 CA         -6.6490   44.8680   17.5650 C.3       9 SER77       0.0000 BACKBONE|DICT|DIRECT
+    143 C          -7.7930   44.8950   16.5580 C.2       9 SER77       0.0000 BACKBONE|DICT|DIRECT
+    144 O          -8.0150   45.9040   15.8860 O.2       9 SER77       0.0000 BACKBONE|DICT|DIRECT
+    145 CB         -5.3650   44.3120   16.9420 C.3       9 SER77       0.0000 DICT
+    146 OG         -5.4130   42.8980   16.8320 O.3       9 SER77       0.0000 DICT
+    147 H          -6.4180   43.3990   19.0950 H         9 SER77       0.0000 BACKBONE|DICT|ESSENTIAL|DIRECT
+    148 HA         -6.4250   45.9370   17.8180 H         9 SER77       0.0000 BACKBONE|DICT|DIRECT
+    149 HB1        -4.5100   44.5930   17.5740 H         9 SER77       0.0000 DICT
+    150 HB2        -5.2380   44.7450   15.9390 H         9 SER77       0.0000 DICT
+    151 HG         -6.2860   42.5650   17.1890 H         9 SER77       0.0000 DICT|ESSENTIAL
+    152 N          -8.5310   43.7890   16.4810 N.am     10 GLU78       0.0000 BACKBONE|DICT|DIRECT
+    153 CA         -9.6340   43.6490   15.5330 C.3      10 GLU78       0.0000 BACKBONE|DICT|DIRECT
+    154 C         -10.8620   44.4970   15.8890 C.2      10 GLU78       0.0000 BACKBONE|DICT|DIRECT
+    155 O         -11.5790   44.9490   14.9970 O.2      10 GLU78       0.0000 BACKBONE|DICT|DIRECT
+    156 CB        -10.0190   42.1710   15.3930 C.3      10 GLU78       0.0000 DICT
+    157 CG         -8.9030   41.3100   14.7780 C.3      10 GLU78       0.0000 DICT
+    158 CD         -8.9680   39.8470   15.2040 C.2      10 GLU78       0.0000 DICT
+    159 OE1       -10.0810   39.2600   15.2170 O.2      10 GLU78       0.0000 DICT
+    160 OE2        -7.8950   39.2820   15.5180 O.3      10 GLU78       0.0000 DICT
+    161 H          -8.3230   43.0270   17.0940 H        10 GLU78       0.0000 BACKBONE|DICT|ESSENTIAL|DIRECT
+    162 HA         -9.2940   43.9750   14.5310 H        10 GLU78       0.0000 BACKBONE|DICT|DIRECT
+    163 HB1       -10.9090   42.1010   14.7500 H        10 GLU78       0.0000 DICT
+    164 HB2       -10.2550   41.7750   16.3920 H        10 GLU78       0.0000 DICT
+    165 HG1        -7.9320   41.7220   15.0900 H        10 GLU78       0.0000 DICT|ESSENTIAL
+    166 HG2        -8.9880   41.3590   13.6820 H        10 GLU78       0.0000 DICT
+    167 HE2        -7.1390   39.9320   15.4370 H        10 GLU78       0.0000 
+    168 N          -1.4100   45.4550   17.9580 N.am     11 MET89       0.0000 BACKBONE|DICT|DIRECT
+    169 CA         -0.7390   44.6220   16.9730 C.3      11 MET89       0.0000 BACKBONE|DICT|DIRECT
+    170 C           0.7520   44.5570   17.2950 C.2      11 MET89       0.0000 BACKBONE|DICT|DIRECT
+    171 O           1.3390   43.4790   17.3280 O.2      11 MET89       0.0000 BACKBONE|DICT|DIRECT
+    172 CB         -0.9910   45.1500   15.5680 C.3      11 MET89       0.0000 DICT
+    173 CG         -0.0850   44.4970   14.5030 C.3      11 MET89       0.0000 DICT
+    174 SD         -0.8020   44.7970   12.8580 S.3      11 MET89       0.0000 DICT
+    175 CE         -1.2490   43.0660   12.3800 C.3      11 MET89       0.0000 DICT
+    176 H          -1.7930   46.3330   17.6710 H        11 MET89       0.0000 BACKBONE|DICT|ESSENTIAL|DIRECT
+    177 HA         -1.1330   43.6050   17.0270 H        11 MET89       0.0000 BACKBONE|DICT|DIRECT
+    178 HB1        -0.8090   46.2350   15.5640 H        11 MET89       0.0000 DICT
+    179 HB2        -2.0400   44.9530   15.3030 H        11 MET89       0.0000 DICT
+    180 HG1        -0.0210   43.4140   14.6860 H        11 MET89       0.0000 DICT|ESSENTIAL
+    181 HG2         0.9210   44.9380   14.5530 H        11 MET89       0.0000 DICT
+    182 HE1        -1.7080   43.0680   11.3800 H        11 MET89       0.0000 DICT
+    183 HE2        -0.3420   42.4430   12.3650 H        11 MET89       0.0000 DICT
+    184 HE3        -1.9630   42.6560   13.1100 H        11 MET89       0.0000 DICT
+    185 N           1.0990   42.2350   20.1650 N.am     12 LEU92       0.0000 BACKBONE|DICT|DIRECT
+    186 CA          0.8970   40.8490   19.7980 C.3      12 LEU92       0.0000 BACKBONE|DICT|DIRECT
+    187 C           2.1280   40.2730   19.1280 C.2      12 LEU92       0.0000 BACKBONE|DICT|DIRECT
+    188 O           2.5350   39.1460   19.4230 O.2      12 LEU92       0.0000 BACKBONE|DICT|DIRECT
+    189 CB         -0.3140   40.7090   18.8850 C.3      12 LEU92       0.0000 DICT
+    190 CG         -0.6630   39.2570   18.5630 C.3      12 LEU92       0.0000 DICT
+    191 CD1        -2.1510   39.0890   18.4030 C.3      12 LEU92       0.0000 DICT
+    192 CD2         0.0600   38.7760   17.3130 C.3      12 LEU92       0.0000 DICT
+    193 H           0.5120   42.9370   19.7610 H        12 LEU92       0.0000 BACKBONE|DICT|ESSENTIAL|DIRECT
+    194 HA          0.6980   40.2520   20.6950 H        12 LEU92       0.0000 BACKBONE|DICT|DIRECT
+    195 HB1        -0.1030   41.2350   17.9420 H        12 LEU92       0.0000 DICT
+    196 HB2        -1.1790   41.1750   19.3790 H        12 LEU92       0.0000 DICT
+    197 HG         -0.3360   38.6380   19.4020 H        12 LEU92       0.0000 DICT
+    198 HD11       -2.5120   39.6610   17.6660 H        12 LEU92       0.0000 DICT
+    199 HD12       -2.3970   38.1440   18.1880 H        12 LEU92       0.0000 DICT
+    200 HD13       -2.6450   39.3380   19.2360 H        12 LEU92       0.0000 DICT
+    201 HD21        1.0530   38.8260   17.4160 H        12 LEU92       0.0000 DICT
+    202 HD22       -0.1640   37.8260   17.0970 H        12 LEU92       0.0000 DICT
+    203 HD23       -0.1800   39.3240   16.5110 H        12 LEU92       0.0000 DICT
+    204 N           2.7110   41.0450   18.2180 N.am     13 LEU93       0.0000 BACKBONE|DICT|DIRECT
+    205 CA          3.8800   40.5830   17.4990 C.3      13 LEU93       0.0000 BACKBONE|DICT|DIRECT
+    206 C           5.0110   40.2920   18.4750 C.2      13 LEU93       0.0000 BACKBONE|DICT|DIRECT
+    207 O           5.7110   39.2650   18.3430 O.2      13 LEU93       0.0000 BACKBONE|DICT|DIRECT
+    208 CB          4.3060   41.5860   16.4250 C.3      13 LEU93       0.0000 DICT
+    209 CG          3.3430   41.8380   15.2560 C.3      13 LEU93       0.0000 DICT
+    210 CD1         4.1000   42.5380   14.1650 C.3      13 LEU93       0.0000 DICT
+    211 CD2         2.7250   40.5480   14.6940 C.3      13 LEU93       0.0000 DICT
+    212 H           2.3390   41.9540   18.0280 H        13 LEU93       0.0000 BACKBONE|DICT|ESSENTIAL|DIRECT
+    213 HA          3.6420   39.6380   16.9870 H        13 LEU93       0.0000 BACKBONE|DICT|DIRECT
+    214 HB1         5.2530   41.2260   15.9970 H        13 LEU93       0.0000 DICT
+    215 HB2         4.4730   42.5510   16.9260 H        13 LEU93       0.0000 DICT
+    216 HG          2.5500   42.4860   15.5960 H        13 LEU93       0.0000 DICT
+    217 HD11        4.4700   43.4140   14.4730 H        13 LEU93       0.0000 DICT
+    218 HD12        4.8720   41.9920   13.8390 H        13 LEU93       0.0000 DICT
+    219 HD13        3.5200   42.7270   13.3730 H        13 LEU93       0.0000 DICT
+    220 HD21        3.4240   39.9210   14.3490 H        13 LEU93       0.0000 DICT
+    221 HD22        2.2040   40.0530   15.3890 H        13 LEU93       0.0000 DICT
+    222 HD23        2.1000   40.7350   13.9370 H        13 LEU93       0.0000 DICT
+    223 N           4.1380   37.0420   20.0610 N.am     14 VAL96       0.0000 BACKBONE|DICT|DIRECT
+    224 CA          4.3720   35.9600   19.1080 C.3      14 VAL96       0.0000 BACKBONE|DICT|DIRECT
+    225 C           5.8480   35.6290   19.0910 C.2      14 VAL96       0.0000 BACKBONE|DICT|DIRECT
+    226 O           6.2230   34.4880   19.2760 O.2      14 VAL96       0.0000 BACKBONE|DICT|DIRECT
+    227 CB          3.8440   36.2840   17.6790 C.3      14 VAL96       0.0000 DICT
+    228 CG1         4.4530   35.3590   16.6390 C.3      14 VAL96       0.0000 DICT
+    229 CG2         2.3140   36.2020   17.6310 C.3      14 VAL96       0.0000 DICT
+    230 H           3.6090   37.8410   19.7760 H        14 VAL96       0.0000 BACKBONE|DICT|ESSENTIAL|DIRECT
+    231 HA          3.8400   35.0570   19.4480 H        14 VAL96       0.0000 BACKBONE|DICT|DIRECT
+    232 HB          4.1340   37.3080   17.4450 H        14 VAL96       0.0000 DICT
+    233 HG11        4.0590   35.6150   15.6440 H        14 VAL96       0.0000 DICT
+    234 HG12        5.5470   35.4740   16.6410 H        14 VAL96       0.0000 DICT
+    235 HG13        4.1940   34.3170   16.8780 H        14 VAL96       0.0000 DICT
+    236 HG21        1.9590   36.4120   16.7200 H        14 VAL96       0.0000 DICT
+    237 HG22        1.9830   35.2890   17.8710 H        14 VAL96       0.0000 DICT
+    238 HG23        1.8880   36.8450   18.2670 H        14 VAL96       0.0000 DICT
+    239 N           6.6850   36.6400   18.9250 N.am     15 PHE97       0.0000 BACKBONE|DICT|DIRECT
+    240 CA          8.1180   36.4040   18.8560 C.3      15 PHE97       0.0000 BACKBONE|DICT|DIRECT
+    241 C           8.7170   35.9280   20.1740 C.2      15 PHE97       0.0000 BACKBONE|DICT|DIRECT
+    242 O           9.5910   35.0550   20.1720 O.2      15 PHE97       0.0000 BACKBONE|DICT|DIRECT
+    243 CB          8.8480   37.6300   18.3130 C.3      15 PHE97       0.0000 DICT
+    244 CG          8.6190   37.8600   16.8440 C.ar     15 PHE97       0.0000 DICT
+    245 CD1         8.8610   36.8410   15.9190 C.ar     15 PHE97       0.0000 DICT
+    246 CD2         8.1690   39.0870   16.3810 C.ar     15 PHE97       0.0000 DICT
+    247 CE1         8.6420   37.0420   14.5700 C.ar     15 PHE97       0.0000 DICT
+    248 CE2         7.9550   39.2920   15.0230 C.ar     15 PHE97       0.0000 DICT
+    249 CZ          8.1890   38.2740   14.1200 C.ar     15 PHE97       0.0000 DICT
+    250 H           6.3300   37.5720   18.8470 H        15 PHE97       0.0000 BACKBONE|DICT|ESSENTIAL|DIRECT
+    251 HA          8.3030   35.5860   18.1110 H        15 PHE97       0.0000 BACKBONE|DICT|DIRECT
+    252 HB1         9.9270   37.4960   18.4810 H        15 PHE97       0.0000 DICT
+    253 HB2         8.4980   38.5160   18.8630 H        15 PHE97       0.0000 DICT
+    254 HD1         9.2090   35.9270   16.2560 H        15 PHE97       0.0000 DICT
+    255 HD2         7.9910   39.8540   17.0480 H        15 PHE97       0.0000 DICT
+    256 HE1         8.8140   36.2820   13.8980 H        15 PHE97       0.0000 DICT
+    257 HE2         7.6200   40.2100   14.6920 H        15 PHE97       0.0000 DICT
+    258 HZ          8.0290   38.4260   13.1150 H        15 PHE97       0.0000 DICT
+    259 N          -6.6900   28.3260    7.6280 N.am     16 ALA133      0.0000 BACKBONE|DICT|DIRECT
+    260 CA         -5.9860   28.9170    8.7700 C.3      16 ALA133      0.0000 BACKBONE|DICT|DIRECT
+    261 C          -5.3710   30.2500    8.3640 C.2      16 ALA133      0.0000 BACKBONE|DICT|DIRECT
+    262 O          -5.5140   31.2450    9.0780 O.2      16 ALA133      0.0000 BACKBONE|DICT|DIRECT
+    263 CB         -4.9260   27.9750    9.3130 C.3      16 ALA133      0.0000 DICT
+    264 H          -6.4340   27.3600    7.3850 H        16 ALA133      0.0000 BACKBONE|DICT|ESSENTIAL|DIRECT
+    265 HA         -6.7020   29.1170    9.5720 H        16 ALA133      0.0000 BACKBONE|DICT|DIRECT
+    266 HB1        -4.4180   28.4470   10.1670 H        16 ALA133      0.0000 DICT
+    267 HB2        -5.4000   27.0390    9.6420 H        16 ALA133      0.0000 DICT
+    268 HB3        -4.1910   27.7560    8.5250 H        16 ALA133      0.0000 DICT
+    269 N          -7.9390   32.9980    7.4260 N.am     17 ASP136      0.0000 BACKBONE|DICT|DIRECT
+    270 CA         -8.4690   33.4940    8.6960 C.3      17 ASP136      0.0000 BACKBONE|DICT|DIRECT
+    271 C          -7.5620   34.5830    9.2130 C.2      17 ASP136      0.0000 BACKBONE|DICT|DIRECT
+    272 O          -7.9290   35.7630    9.2670 O.2      17 ASP136      0.0000 BACKBONE|DICT|DIRECT
+    273 CB         -8.5630   32.3740    9.7350 C.3      17 ASP136      0.0000 DICT
+    274 CG         -9.9890   31.9860   10.0470 C.2      17 ASP136      0.0000 DICT
+    275 OD1       -10.6740   31.4200    9.1630 O.co2    17 ASP136     -0.5000 DICT
+    276 OD2       -10.4230   32.2450   11.1890 O.co2    17 ASP136     -0.5000 DICT
+    277 H          -7.7270   32.0250    7.3330 H        17 ASP136      0.0000 BACKBONE|DICT|ESSENTIAL|DIRECT
+    278 HA         -9.4550   33.9100    8.5550 H        17 ASP136      0.0000 BACKBONE|DICT|DIRECT
+    279 HB1        -8.0800   32.7140   10.6630 H        17 ASP136      0.0000 DICT
+    280 HB2        -8.0350   31.4900    9.3480 H        17 ASP136      0.0000 DICT
+    281 N          -6.3540   34.1720    9.5620 N.am     18 CYS137      0.0000 BACKBONE|DICT|DIRECT
+    282 CA         -5.3400   35.0840   10.0260 C.3      18 CYS137      0.0000 BACKBONE|DICT|DIRECT
+    283 C          -5.3050   36.3360    9.1540 C.2      18 CYS137      0.0000 BACKBONE|DICT|DIRECT
+    284 O          -5.1570   37.4360    9.6600 O.2      18 CYS137      0.0000 BACKBONE|DICT|DIRECT
+    285 CB         -3.9900   34.3690   10.0250 C.3      18 CYS137      0.0000 DICT
+    286 SG         -2.6190   35.4140   10.4690 S.3      18 CYS137      0.0000 DICT
+    287 H          -6.1380   33.1970    9.5020 H        18 CYS137      0.0000 BACKBONE|DICT|ESSENTIAL|DIRECT
+    288 HA         -5.5500   35.3900   11.0480 H        18 CYS137      0.0000 BACKBONE|DICT|DIRECT
+    289 HB1        -3.8100   33.9720    9.0150 H        18 CYS137      0.0000 DICT
+    290 HB2        -4.0380   33.5370   10.7440 H        18 CYS137      0.0000 DICT
+    291 HG         -2.9510   36.3380   10.6570 H        18 CYS137      0.0000 DICT|ESSENTIAL
+    292 N          -5.4680   36.1570    7.8470 N.am     19 HIS138      0.0000 BACKBONE|DICT|DIRECT
+    293 CA         -5.4730   37.2680    6.8970 C.3      19 HIS138      0.0000 BACKBONE|DICT|DIRECT
+    294 C          -6.6300   38.2210    7.1390 C.2      19 HIS138      0.0000 BACKBONE|DICT|DIRECT
+    295 O          -6.4220   39.4320    7.2070 O.2      19 HIS138      0.0000 BACKBONE|DICT|DIRECT
+    296 CB         -5.5080   36.7530    5.4510 C.3      19 HIS138      0.0000 DICT
+    297 CG         -5.7130   37.8320    4.4260 C.2      19 HIS138      0.0000 DICT
+    298 ND1        -4.8290   38.8780    4.2530 N.2      19 HIS138      0.0000 DICT
+    299 CD2        -6.6940   38.0150    3.5110 C.2      19 HIS138      0.0000 DICT
+    300 CE1        -5.2580   39.6580    3.2770 C.2      19 HIS138      0.0000 DICT
+    301 NE2        -6.3870   39.1560    2.8090 N.pl3    19 HIS138      0.0000 DICT
+    302 H          -5.5920   35.2270    7.5010 H        19 HIS138      0.0000 BACKBONE|DICT|ESSENTIAL|DIRECT
+    303 HA         -4.5420   37.8450    7.0040 H        19 HIS138      0.0000 BACKBONE|DICT|DIRECT
+    304 HB1        -6.3310   36.0290    5.3610 H        19 HIS138      0.0000 DICT
+    305 HB2        -4.5530   36.2510    5.2390 H        19 HIS138      0.0000 DICT
+    306 HD2        -7.4930   37.4290    3.3720 H        19 HIS138      0.0000 DICT
+    307 HE1        -4.8050   40.4870    2.9480 H        19 HIS138      0.0000 DICT
+    308 HE2        -6.9300   39.5440    2.0640 H        19 HIS138      0.0000 DICT|ESSENTIAL
+    309 N          -7.8400   37.6740    7.2640 N.am     20 LYS139      0.0000 BACKBONE|DICT|DIRECT
+    310 CA         -9.0140   38.4980    7.5180 C.3      20 LYS139      0.0000 BACKBONE|DICT|DIRECT
+    311 C          -8.7300   39.3210    8.7580 C.2      20 LYS139      0.0000 BACKBONE|DICT|DIRECT
+    312 O          -8.7390   40.5440    8.7020 O.2      20 LYS139      0.0000 BACKBONE|DICT|DIRECT
+    313 CB        -10.2610   37.6430    7.6970 C.3      20 LYS139      0.0000 DICT
+    314 H          -7.9430   36.6830    7.1820 H        20 LYS139      0.0000 BACKBONE|DICT|ESSENTIAL|DIRECT
+    315 HA         -9.1720   39.1790    6.6930 H        20 LYS139      0.0000 BACKBONE|DICT|DIRECT
+    316 N          -8.4200   38.6410    9.8580 N.am     21 GLY140      0.0000 BACKBONE|DICT|DIRECT
+    317 CA         -8.0150   39.3040   11.0980 C.3      21 GLY140      0.0000 BACKBONE|DICT|DIRECT
+    318 C          -7.0370   40.4540   10.9110 C.2      21 GLY140      0.0000 BACKBONE|DICT|DIRECT
+    319 O          -7.2550   41.5580   11.4280 O.2      21 GLY140      0.0000 BACKBONE|DICT|DIRECT
+    320 H          -8.4650   37.6420    9.8370 H        21 GLY140      0.0000 BACKBONE|DICT|ESSENTIAL|DIRECT
+    321 HA1        -7.5420   38.5540   11.7490 H        21 GLY140      0.0000 
+    322 HA2        -8.9180   39.6980   11.5870 H        21 GLY140      0.0000 BACKBONE|DICT|DIRECT
+    323 N          -5.9630   40.2120   10.1660 N.am     22 ILE141      0.0000 BACKBONE|DICT|DIRECT
+    324 CA         -4.9600   41.2490    9.9500 C.3      22 ILE141      0.0000 BACKBONE|DICT|DIRECT
+    325 C          -5.5550   42.4660    9.2460 C.2      22 ILE141      0.0000 BACKBONE|DICT|DIRECT
+    326 O          -5.3640   43.5930    9.6990 O.2      22 ILE141      0.0000 BACKBONE|DICT|DIRECT
+    327 CB         -3.7110   40.7310    9.2040 C.3      22 ILE141      0.0000 DICT
+    328 CG1        -2.9980   39.6800   10.0550 C.3      22 ILE141      0.0000 DICT
+    329 CG2        -2.7300   41.8820    8.9270 C.3      22 ILE141      0.0000 DICT
+    330 CD1        -1.7390   39.1320    9.4120 C.3      22 ILE141      0.0000 DICT
+    331 H          -5.8420   39.3110    9.7500 H        22 ILE141      0.0000 BACKBONE|DICT|ESSENTIAL|DIRECT
+    332 HA         -4.5990   41.6090   10.9430 H        22 ILE141      0.0000 BACKBONE|DICT|DIRECT
+    333 HB         -4.0080   40.2930    8.2790 H        22 ILE141      0.0000 DICT
+    334 HG12       -3.6920   38.8440   10.2290 H        22 ILE141      0.0000 DICT
+    335 HG11       -2.7260   40.1380   11.0170 H        22 ILE141      0.0000 DICT
+    336 HG21       -2.4220   42.3190    9.7720 H        22 ILE141      0.0000 DICT
+    337 HG22       -1.9130   41.5660    8.4460 H        22 ILE141      0.0000 DICT
+    338 HG23       -3.1450   42.5960    8.3630 H        22 ILE141      0.0000 DICT
+    339 HD11       -1.0670   39.8520    9.2390 H        22 ILE141      0.0000 DICT
+    340 HD12       -1.2940   38.4480    9.9900 H        22 ILE141      0.0000 DICT
+    341 HD13       -1.9310   38.6930    8.5340 H        22 ILE141      0.0000 DICT
+    342 N          -7.6030   44.7090   11.5700 N.am     23 ALA144      0.0000 BACKBONE|DICT|DIRECT
+    343 CA         -6.7620   45.5300   12.4240 C.3      23 ALA144      0.0000 BACKBONE|DICT|DIRECT
+    344 C          -6.2390   46.7310   11.6620 C.2      23 ALA144      0.0000 BACKBONE|DICT|DIRECT
+    345 O          -6.2980   47.8540   12.1590 O.2      23 ALA144      0.0000 BACKBONE|DICT|DIRECT
+    346 CB         -5.6130   44.7150   12.9910 C.3      23 ALA144      0.0000 DICT
+    347 H          -7.2890   43.7280   11.4260 H        23 ALA144      0.0000 BACKBONE|DICT|ESSENTIAL|DIRECT
+    348 HA         -7.3500   45.9040   13.2690 H        23 ALA144      0.0000 BACKBONE|DICT|DIRECT
+    349 HB1        -4.9900   45.3550   13.6330 H        23 ALA144      0.0000 DICT
+    350 HB2        -6.0130   43.8800   13.5840 H        23 ALA144      0.0000 DICT
+    351 HB3        -5.0020   44.3190   12.1670 H        23 ALA144      0.0000 DICT
+    352 N           2.6830   42.0880    5.6170 N.am     24 MET167      0.0000 BACKBONE|DICT|DIRECT
+    353 CA          2.9060   41.7970    7.0310 C.3      24 MET167      0.0000 BACKBONE|DICT|DIRECT
+    354 C           3.0980   40.3130    7.3020 C.2      24 MET167      0.0000 BACKBONE|DICT|DIRECT
+    355 O           4.1520   39.8810    7.7830 O.2      24 MET167      0.0000 BACKBONE|DICT|DIRECT
+    356 CB          1.7250   42.2930    7.8640 C.3      24 MET167      0.0000 DICT
+    357 CG          2.0890   43.3690    8.8440 C.3      24 MET167      0.0000 DICT
+    358 SD          3.5890   42.9500    9.7480 S.3      24 MET167      0.0000 DICT
+    359 CE          3.5310   44.2210   11.0600 C.3      24 MET167      0.0000 DICT
+    360 H           1.8500   42.5770    5.3600 H        24 MET167      0.0000 BACKBONE|DICT|ESSENTIAL|DIRECT
+    361 HA          3.7920   42.3210    7.3900 H        24 MET167      0.0000 BACKBONE|DICT|DIRECT
+    362 HB1         1.3110   41.4400    8.4220 H        24 MET167      0.0000 DICT
+    363 HB2         0.9600   42.6900    7.1800 H        24 MET167      0.0000 DICT
+    364 HG1         1.2630   43.4960    9.5600 H        24 MET167      0.0000 DICT|ESSENTIAL
+    365 HG2         2.2510   44.3110    8.2990 H        24 MET167      0.0000 DICT
+    366 HE1         4.4020   44.1050   11.7220 H        24 MET167      0.0000 DICT
+    367 HE2         3.5490   45.2210   10.6030 H        24 MET167      0.0000 DICT
+    368 HE3         2.6080   44.1020   11.6460 H        24 MET167      0.0000 DICT
+    369 N           2.0630   39.5400    6.9930 N.am     25 PHE168      0.0000 BACKBONE|DICT|DIRECT
+    370 CA          2.0600   38.1190    7.2540 C.3      25 PHE168      0.0000 BACKBONE|DICT|DIRECT
+    371 C           3.2660   37.4860    6.6010 C.2      25 PHE168      0.0000 BACKBONE|DICT|DIRECT
+    372 O           3.9750   36.7250    7.2440 O.2      25 PHE168      0.0000 BACKBONE|DICT|DIRECT
+    373 CB          0.7810   37.4720    6.7340 C.3      25 PHE168      0.0000 DICT
+    374 CG          0.7210   35.9990    6.9770 C.ar     25 PHE168      0.0000 DICT
+    375 CD1         0.1500   35.5000    8.1420 C.ar     25 PHE168      0.0000 DICT
+    376 CD2         1.2490   35.1050    6.0440 C.ar     25 PHE168      0.0000 DICT
+    377 CE1         0.0990   34.1340    8.3910 C.ar     25 PHE168      0.0000 DICT
+    378 CE2         1.2100   33.7330    6.2790 C.ar     25 PHE168      0.0000 DICT
+    379 CZ          0.6210   33.2430    7.4620 C.ar     25 PHE168      0.0000 DICT
+    380 H           1.2600   39.9550    6.5660 H        25 PHE168      0.0000 BACKBONE|DICT|ESSENTIAL|DIRECT
+    381 HA          2.1200   37.9320    8.3230 H        25 PHE168      0.0000 BACKBONE|DICT|DIRECT
+    382 HB1         0.7160   37.6500    5.6500 H        25 PHE168      0.0000 DICT
+    383 HB2        -0.0770   37.9430    7.2350 H        25 PHE168      0.0000 DICT
+    384 HD1        -0.2450   36.1600    8.8380 H        25 PHE168      0.0000 DICT
+    385 HD2         1.6710   35.4650    5.1750 H        25 PHE168      0.0000 DICT
+    386 HE1        -0.3230   33.7840    9.2600 H        25 PHE168      0.0000 DICT
+    387 HE2         1.6050   33.0770    5.6010 H        25 PHE168      0.0000 DICT
+    388 HZ          0.5830   32.2340    7.6270 H        25 PHE168      0.0000 DICT
+    389 N           6.5070   38.4880    8.6540 N.am     26 VAL171      0.0000 BACKBONE|DICT|DIRECT
+    390 CA          6.5420   37.7880    9.9170 C.3      26 VAL171      0.0000 BACKBONE|DICT|DIRECT
+    391 C           6.7840   36.3140    9.6540 C.2      26 VAL171      0.0000 BACKBONE|DICT|DIRECT
+    392 O           7.7050   35.7030   10.2080 O.2      26 VAL171      0.0000 BACKBONE|DICT|DIRECT
+    393 CB          5.2280   37.9540   10.6890 C.3      26 VAL171      0.0000 DICT
+    394 CG1         5.3090   37.2120   12.0110 C.3      26 VAL171      0.0000 DICT
+    395 CG2         4.9270   39.4390   10.9140 C.3      26 VAL171      0.0000 DICT
+    396 H           5.6970   39.0220    8.4110 H        26 VAL171      0.0000 BACKBONE|DICT|ESSENTIAL|DIRECT
+    397 HA          7.3470   38.1530   10.5380 H        26 VAL171      0.0000 BACKBONE|DICT|DIRECT
+    398 HB          4.4310   37.5270   10.0960 H        26 VAL171      0.0000 DICT
+    399 HG11        4.3640   37.3350   12.5600 H        26 VAL171      0.0000 DICT
+    400 HG12        5.4860   36.1430   11.8220 H        26 VAL171      0.0000 DICT
+    401 HG13        6.1360   37.6200   12.6110 H        26 VAL171      0.0000 DICT
+    402 HG21        5.6480   39.8880   11.4410 H        26 VAL171      0.0000 DICT
+    403 HG22        4.8420   39.9360   10.0500 H        26 VAL171      0.0000 DICT
+    404 HG23        4.0720   39.5730   11.4140 H        26 VAL171      0.0000 DICT
+    405 N           5.9590   35.7410    8.7980 N.am     27 ASP172      0.0000 BACKBONE|DICT|DIRECT
+    406 CA          6.0560   34.3300    8.5010 C.3      27 ASP172      0.0000 BACKBONE|DICT|DIRECT
+    407 C           7.4850   33.9460    8.0830 C.2      27 ASP172      0.0000 BACKBONE|DICT|DIRECT
+    408 O           8.0750   33.0420    8.6710 O.2      27 ASP172      0.0000 BACKBONE|DICT|DIRECT
+    409 CB          5.0240   33.9540    7.4450 C.3      27 ASP172      0.0000 DICT
+    410 CG          5.0170   32.4880    7.1410 C.2      27 ASP172      0.0000 DICT
+    411 OD1         4.5410   31.6930    7.9840 O.co2    27 ASP172     -0.5000 DICT
+    412 OD2         5.4850   32.1280    6.0390 O.co2    27 ASP172     -0.5000 DICT
+    413 H           5.2560   36.2920    8.3480 H        27 ASP172      0.0000 BACKBONE|DICT|ESSENTIAL|DIRECT
+    414 HA          5.8170   33.7510    9.4080 H        27 ASP172      0.0000 BACKBONE|DICT|DIRECT
+    415 HB1         5.2510   34.5040    6.5200 H        27 ASP172      0.0000 DICT
+    416 HB2         4.0270   34.2430    7.8090 H        27 ASP172      0.0000 DICT
+    417 N           9.9810   34.0940   10.9640 N.am     28 ILE175      0.0000 BACKBONE|DICT|DIRECT
+    418 CA          9.8500   32.9700   11.8730 C.3      28 ILE175      0.0000 BACKBONE|DICT|DIRECT
+    419 C          10.5750   31.7820   11.2860 C.2      28 ILE175      0.0000 BACKBONE|DICT|DIRECT
+    420 O          11.4170   31.1720   11.9380 O.2      28 ILE175      0.0000 BACKBONE|DICT|DIRECT
+    421 CB          8.3800   32.5940   12.0980 C.3      28 ILE175      0.0000 DICT
+    422 CG1         7.6800   33.7050   12.8980 C.3      28 ILE175      0.0000 DICT
+    423 CG2         8.2700   31.2420   12.8010 C.3      28 ILE175      0.0000 DICT
+    424 CD1         6.2130   33.4580   13.1450 C.3      28 ILE175      0.0000 DICT
+    425 H           9.1580   34.4990   10.5660 H        28 ILE175      0.0000 BACKBONE|DICT|ESSENTIAL|DIRECT
+    426 HA         10.2910   33.1960   12.8300 H        28 ILE175      0.0000 BACKBONE|DICT|DIRECT
+    427 HB          7.9000   32.5230   11.1270 H        28 ILE175      0.0000 DICT
+    428 HG12        7.7820   34.6480   12.3410 H        28 ILE175      0.0000 DICT
+    429 HG11        8.1830   33.7980   13.8720 H        28 ILE175      0.0000 DICT
+    430 HG21        8.6950   30.5110   12.2680 H        28 ILE175      0.0000 DICT
+    431 HG22        8.7170   31.2510   13.6950 H        28 ILE175      0.0000 DICT
+    432 HG23        7.3170   30.9790   12.9520 H        28 ILE175      0.0000 DICT
+    433 HD11        6.0600   32.6150   13.6620 H        28 ILE175      0.0000 DICT
+    434 HD12        5.7940   34.2020   13.6660 H        28 ILE175      0.0000 DICT
+    435 HD13        5.7010   33.3750   12.2900 H        28 ILE175      0.0000 DICT
+@<TRIPOS>BOND
+     1    1    2 1    
+     2    1    9 1    
+     3    2    5 1    
+     4    2    3 1    
+     5    2   10 1    
+     6    3    4 2    
+     7    5    6 1    
+     8    5   11 1    
+     9    5   12 1    
+    10    6    8 1    
+    11    6    7 1    
+    12    6   13 1    
+    13    7   14 1    
+    14    7   15 1    
+    15    7   16 1    
+    16    8   17 1    
+    17    8   18 1    
+    18    8   19 1    
+    19   20   21 1    
+    20   20   28 1    
+    21   21   24 1    
+    22   21   22 1    
+    23   21   29 1    
+    24   22   23 2    
+    25   24   25 1    
+    26   24   30 1    
+    27   24   31 1    
+    28   25   27 1    
+    29   25   26 1    
+    30   25   32 1    
+    31   26   33 1    
+    32   26   34 1    
+    33   26   35 1    
+    34   27   36 1    
+    35   27   37 1    
+    36   27   38 1    
+    37   39   40 1    
+    38   39   49 1    
+    39   40   43 1    
+    40   40   41 1    
+    41   40   50 1    
+    42   41   42 2    
+    43   43   44 1    
+    44   43   51 1    
+    45   43   52 1    
+    46   44   46 2    
+    47   44   45 1    
+    48   45   47 2    
+    49   46   48 1    
+    50   46   53 1    
+    51   47   48 1    
+    52   47   54 1    
+    53   48   55 1    
+    54   56   57 1    
+    55   56   65 1    
+    56   57   60 1    
+    57   57   58 1    
+    58   57   66 1    
+    59   58   59 2    
+    60   60   61 1    
+    61   60   67 1    
+    62   60   68 1    
+    63   61   62 1    
+    64   61   69 1    
+    65   61   70 1    
+    66   62   64 ar   
+    67   62   63 ar   
+    68   71   72 1    
+    69   71   81 1    
+    70   72   75 1    
+    71   72   73 1    
+    72   72   82 1    
+    73   73   74 2    
+    74   75   76 1    
+    75   75   83 1    
+    76   75   84 1    
+    77   76   78 2    
+    78   76   77 1    
+    79   77   79 2    
+    80   78   80 1    
+    81   78   85 1    
+    82   79   80 1    
+    83   79   86 1    
+    84   80   87 1    
+    85   88   89 1    
+    86   88   96 1    
+    87   89   92 1    
+    88   89   90 1    
+    89   89   97 1    
+    90   90   91 2    
+    91   92   93 1    
+    92   92   98 1    
+    93   92   99 1    
+    94   93   95 1    
+    95   93   94 1    
+    96   93  100 1    
+    97   94  101 1    
+    98   94  102 1    
+    99   94  103 1    
+   100   95  104 1    
+   101   95  105 1    
+   102   95  106 1    
+   103  107  108 1    
+   104  107  112 1    
+   105  108  111 1    
+   106  108  109 1    
+   107  108  113 1    
+   108  109  110 2    
+   109  111  114 1    
+   110  111  115 1    
+   111  111  116 1    
+   112  117  118 1    
+   113  117  128 1    
+   114  118  121 1    
+   115  118  119 1    
+   116  118  129 1    
+   117  119  120 2    
+   118  121  122 1    
+   119  121  130 1    
+   120  121  131 1    
+   121  122  123 1    
+   122  122  132 1    
+   123  122  133 1    
+   124  123  124 1    
+   125  123  134 1    
+   126  123  135 1    
+   127  124  125 ar   
+   128  124  136 1    
+   129  125  127 ar   
+   130  125  126 ar   
+   131  126  137 1    
+   132  126  138 1    
+   133  127  139 1    
+   134  127  140 1    
+   135  141  142 1    
+   136  141  147 1    
+   137  142  145 1    
+   138  142  143 1    
+   139  142  148 1    
+   140  143  144 2    
+   141  145  146 1    
+   142  145  149 1    
+   143  145  150 1    
+   144  146  151 1    
+   145  152  153 1    
+   146  152  161 1    
+   147  153  156 1    
+   148  153  154 1    
+   149  153  162 1    
+   150  154  155 2    
+   151  156  157 1    
+   152  156  163 1    
+   153  156  164 1    
+   154  157  158 1    
+   155  157  165 1    
+   156  157  166 1    
+   157  158  160 1    
+   158  158  159 2    
+   159  160  167 1    
+   160  168  169 1    
+   161  168  176 1    
+   162  169  172 1    
+   163  169  170 1    
+   164  169  177 1    
+   165  170  171 2    
+   166  172  173 1    
+   167  172  178 1    
+   168  172  179 1    
+   169  173  174 1    
+   170  173  180 1    
+   171  173  181 1    
+   172  174  175 1    
+   173  175  182 1    
+   174  175  183 1    
+   175  175  184 1    
+   176  185  186 1    
+   177  185  193 1    
+   178  186  189 1    
+   179  186  187 1    
+   180  186  194 1    
+   181  187  188 2    
+   182  189  190 1    
+   183  189  195 1    
+   184  189  196 1    
+   185  190  192 1    
+   186  190  191 1    
+   187  190  197 1    
+   188  191  198 1    
+   189  191  199 1    
+   190  191  200 1    
+   191  192  201 1    
+   192  192  202 1    
+   193  192  203 1    
+   194  204  205 1    
+   195  204  212 1    
+   196  205  208 1    
+   197  205  206 1    
+   198  205  213 1    
+   199  206  207 2    
+   200  208  209 1    
+   201  208  214 1    
+   202  208  215 1    
+   203  209  211 1    
+   204  209  210 1    
+   205  209  216 1    
+   206  210  217 1    
+   207  210  218 1    
+   208  210  219 1    
+   209  211  220 1    
+   210  211  221 1    
+   211  211  222 1    
+   212  223  224 1    
+   213  223  230 1    
+   214  224  227 1    
+   215  224  225 1    
+   216  224  231 1    
+   217  225  226 2    
+   218  227  229 1    
+   219  227  228 1    
+   220  227  232 1    
+   221  228  233 1    
+   222  228  234 1    
+   223  228  235 1    
+   224  229  236 1    
+   225  229  237 1    
+   226  229  238 1    
+   227  239  240 1    
+   228  239  250 1    
+   229  240  243 1    
+   230  240  241 1    
+   231  240  251 1    
+   232  241  242 2    
+   233  243  244 1    
+   234  243  252 1    
+   235  243  253 1    
+   236  244  246 ar   
+   237  244  245 ar   
+   238  245  247 ar   
+   239  245  254 1    
+   240  246  248 ar   
+   241  246  255 1    
+   242  247  249 ar   
+   243  247  256 1    
+   244  248  249 ar   
+   245  248  257 1    
+   246  249  258 1    
+   247  259  260 1    
+   248  259  264 1    
+   249  260  263 1    
+   250  260  261 1    
+   251  260  265 1    
+   252  261  262 2    
+   253  263  266 1    
+   254  263  267 1    
+   255  263  268 1    
+   256  269  270 1    
+   257  269  277 1    
+   258  270  273 1    
+   259  270  271 1    
+   260  270  278 1    
+   261  271  272 2    
+   262  273  274 1    
+   263  273  279 1    
+   264  273  280 1    
+   265  274  276 ar   
+   266  274  275 ar   
+   267  281  282 1    
+   268  281  287 1    
+   269  282  285 1    
+   270  282  283 1    
+   271  282  288 1    
+   272  283  284 2    
+   273  285  286 1    
+   274  285  289 1    
+   275  285  290 1    
+   276  286  291 1    
+   277  292  293 1    
+   278  292  302 1    
+   279  293  296 1    
+   280  293  294 1    
+   281  293  303 1    
+   282  294  295 2    
+   283  296  297 1    
+   284  296  304 1    
+   285  296  305 1    
+   286  297  299 2    
+   287  297  298 1    
+   288  298  300 2    
+   289  299  301 1    
+   290  299  306 1    
+   291  300  301 1    
+   292  300  307 1    
+   293  301  308 1    
+   294  309  310 1    
+   295  309  314 1    
+   296  310  313 1    
+   297  310  311 1    
+   298  310  315 1    
+   299  311  312 2    
+   300  316  317 1    
+   301  316  320 1    
+   302  317  318 1    
+   303  317  321 1    
+   304  317  322 1    
+   305  318  319 2    
+   306  323  324 1    
+   307  323  331 1    
+   308  324  327 1    
+   309  324  325 1    
+   310  324  332 1    
+   311  325  326 2    
+   312  327  329 1    
+   313  327  328 1    
+   314  327  333 1    
+   315  328  330 1    
+   316  328  334 1    
+   317  328  335 1    
+   318  329  336 1    
+   319  329  337 1    
+   320  329  338 1    
+   321  330  339 1    
+   322  330  340 1    
+   323  330  341 1    
+   324  342  343 1    
+   325  342  347 1    
+   326  343  346 1    
+   327  343  344 1    
+   328  343  348 1    
+   329  344  345 2    
+   330  346  349 1    
+   331  346  350 1    
+   332  346  351 1    
+   333  352  353 1    
+   334  352  360 1    
+   335  353  356 1    
+   336  353  354 1    
+   337  353  361 1    
+   338  354  355 2    
+   339  356  357 1    
+   340  356  362 1    
+   341  356  363 1    
+   342  357  358 1    
+   343  357  364 1    
+   344  357  365 1    
+   345  358  359 1    
+   346  359  366 1    
+   347  359  367 1    
+   348  359  368 1    
+   349  369  370 1    
+   350  369  380 1    
+   351  370  373 1    
+   352  370  371 1    
+   353  370  381 1    
+   354  371  372 2    
+   355  373  374 1    
+   356  373  382 1    
+   357  373  383 1    
+   358  374  376 ar   
+   359  374  375 ar   
+   360  375  377 ar   
+   361  375  384 1    
+   362  376  378 ar   
+   363  376  385 1    
+   364  377  379 ar   
+   365  377  386 1    
+   366  378  379 ar   
+   367  378  387 1    
+   368  379  388 1    
+   369  389  390 1    
+   370  389  396 1    
+   371  390  393 1    
+   372  390  391 1    
+   373  390  397 1    
+   374  391  392 2    
+   375  393  395 1    
+   376  393  394 1    
+   377  393  398 1    
+   378  394  399 1    
+   379  394  400 1    
+   380  394  401 1    
+   381  395  402 1    
+   382  395  403 1    
+   383  395  404 1    
+   384  405  406 1    
+   385  405  413 1    
+   386  406  409 1    
+   387  406  407 1    
+   388  406  414 1    
+   389  407  408 2    
+   390  409  410 1    
+   391  409  415 1    
+   392  409  416 1    
+   393  410  412 ar   
+   394  410  411 ar   
+   395  417  418 1    
+   396  417  425 1    
+   397  418  421 1    
+   398  418  419 1    
+   399  418  426 1    
+   400  419  420 2    
+   401  421  423 1    
+   402  421  422 1    
+   403  421  427 1    
+   404  422  424 1    
+   405  422  428 1    
+   406  422  429 1    
+   407  423  430 1    
+   408  423  431 1    
+   409  423  432 1    
+   410  424  433 1    
+   411  424  434 1    
+   412  424  435 1    
+   413   22   39 am   
+   414   41   56 am   
+   415   90  107 am   
+   416  109  117 am   
+   417  143  152 am   
+   418  187  204 am   
+   419  225  239 am   
+   420  271  281 am   
+   421  283  292 am   
+   422  294  309 am   
+   423  311  316 am   
+   424  318  323 am   
+   425  354  369 am   
+   426  391  405 am   
+@<TRIPOS>SUBSTRUCTURE
+     1 LEU63       1 RESIDUE      1 B    LEU  1     ROOT LEU B 58
+     2 LEU66      20 RESIDUE      1 B    LEU  2     **** LEU B 61
+     3 HIS67      39 RESIDUE      1 B    HIS  2     **** HIS B 62
+     4 GLU68      56 RESIDUE      1 B    GLU  1     **** GLU B 63
+     5 HIS70      71 RESIDUE      1 B    HIS  1     **** HIS B 65
+     6 LEU73      88 RESIDUE      1 B    LEU  2     **** LEU B 68
+     7 ALA74     107 RESIDUE      1 B    ALA  2     **** ALA B 69
+     8 ARG75     117 RESIDUE      1 B    ARG  1     **** ARG B 70
+     9 SER77     141 RESIDUE      1 B    SER  2     **** SER B 72
+    10 GLU78     152 RESIDUE      1 B    GLU  1     **** GLU B 73
+    11 MET89     168 RESIDUE      1 B    MET  1     **** MET B 84
+    12 LEU92     185 RESIDUE      1 B    LEU  2     **** LEU B 87
+    13 LEU93     204 RESIDUE      1 B    LEU  1     **** LEU B 88
+    14 VAL96     223 RESIDUE      1 B    VAL  2     **** VAL B 91
+    15 PHE97     239 RESIDUE      1 B    PHE  1     **** PHE B 92
+    16 ALA133    259 RESIDUE      1 B    ALA  1     **** ALA B 128
+    17 ASP136    269 RESIDUE      1 B    ASP  2     **** ASP B 131
+    18 CYS137    281 RESIDUE      1 B    CYS  2     **** CYS B 132
+    19 HIS138    292 RESIDUE      1 B    HIS  2     **** HIS B 133
+    20 LYS139    309 RESIDUE      1 B    LYS  2     **** LYS B 134
+    21 GLY140    316 RESIDUE      1 B    GLY  2     **** GLY B 135
+    22 ILE141    323 RESIDUE      1 B    ILE  1     **** ILE B 136
+    23 ALA144    342 RESIDUE      1 B    ALA  1     **** ALA B 139
+    24 MET167    352 RESIDUE      1 B    MET  2     **** MET B 162
+    25 PHE168    369 RESIDUE      1 B    PHE  1     **** PHE B 163
+    26 VAL171    389 RESIDUE      1 B    VAL  2     **** VAL B 166
+    27 ASP172    405 RESIDUE      1 B    ASP  1     **** ASP B 167
+    28 ILE175    417 RESIDUE      1 B    ILE  1     **** ILE B 170
+@<TRIPOS>SET
+ATOM$GREEN STATIC     ATOMS   COLORGROUP SYSTEM 
+142 2 3 5 6 7 8 21 22 24 25 26 27 40 41 43 44 46 \
+47 57 58 60 61 62 72 73 75 76 78 79 89 90 92 93 94 95 \
+108 109 111 118 119 121 122 123 125 142 143 145 153 154 156 157 158 169 \
+170 172 173 175 186 187 189 190 191 192 205 206 208 209 210 211 224 225 \
+227 228 229 240 241 243 244 245 246 247 248 249 260 261 263 270 271 273 \
+274 282 283 285 293 294 296 297 299 300 310 311 313 317 318 324 325 327 \
+328 329 330 343 344 346 353 354 356 357 359 370 371 373 374 375 376 377 \
+378 379 390 391 393 394 395 406 407 409 410 418 419 421 422 423 424 
+

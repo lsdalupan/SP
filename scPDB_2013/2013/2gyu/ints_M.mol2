@@ -1,0 +1,36 @@
+#    Name: 2gyu_HI6_1_INTS_M
+#    Modification time : Tue Mar 25 15:12:17 2014
+
+@<TRIPOS>MOLECULE
+2gyu_HI6_1_INTS_M
+   15     0     6     0     0
+SMALL
+NO_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          38.4755   17.1690    9.2785 N.am      1 SEC2        0.0000 
+      2 N          37.9220   18.4250    9.7200 N.am      5 SEL2        0.0000 
+      3 N          39.0290   15.9130    8.8370 N.am      3 SEP2        0.0000 
+      4 CA         36.3580   17.9400    8.5850 C.3       2 GLC5        0.0000 
+      5 CA         36.0670   20.1100    8.8470 C.3       6 GLL5        0.0000 
+      6 CA         36.6490   15.7700    8.3230 C.3       4 GLP5        0.0000 
+      7 CA         34.8550   23.3700    7.9535 C.3       2 GLC5        0.0000 
+      8 CA         33.6170   22.8210    8.6760 C.3       6 GLL5        0.0000 
+      9 CA         36.0930   23.9190    7.2310 C.3       4 GLP5        0.0000 
+     10 CA         31.0095   24.7960    8.8540 C.3       2 GLC5        0.0000 
+     11 CA         31.4450   23.3400    9.1270 C.3       6 GLL5        0.0000 
+     12 CA         30.5740   26.2520    8.5810 C.3       4 GLP5        0.0000 
+     13 N          31.5365   19.2510    5.3165 N.am      1 SEC2        0.0000 
+     14 N          31.9460   20.2710    6.2230 N.am      5 SEL2        0.0000 
+     15 N          31.1270   18.2310    4.4100 N.am      3 SEP2        0.0000 
+@<TRIPOS>BOND
+@<TRIPOS>SUBSTRUCTURE
+     1 SEC2        1 GROUP        1 X    SEC  0     ROOT SEC X 2
+     2 GLC5        4 GROUP        1 X    GLC  0     **** GLC X 6
+     3 SEP2        3 GROUP        1 Y    SEP  0     ROOT SEP Y 9
+     4 GLP5        6 GROUP        1 Y    GLP  0     **** GLP Y 13
+     5 SEL2        2 GROUP        1 Z    SEL  0     ROOT SEL Z 16
+     6 GLL5        5 GROUP        1 Z    GLL  0     **** GLL Z 20
+@<TRIPOS>SET
+

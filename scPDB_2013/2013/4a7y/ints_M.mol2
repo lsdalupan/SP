@@ -1,0 +1,35 @@
+#    Name: 4a7y_NHF_2_INTS_M
+#    Modification time : Tue Mar 25 05:14:19 2014
+
+@<TRIPOS>MOLECULE
+4a7y_NHF_2_INTS_M
+   14     0     6     0     0
+SMALL
+NO_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 CA        -11.4610  -32.7320   22.4855 C.3       2 GLC5        0.0000 
+      2 CA        -11.0190  -33.7970   21.0350 C.3       6 GLL5        0.0000 
+      3 CA        -11.9030  -31.6670   23.9360 C.3       4 GLP5        0.0000 
+      4 CA         -9.6220  -33.1095   22.5530 C.3       2 GLC5        0.0000 
+      5 CA         -8.2250  -32.4220   24.0710 C.3       4 GLP5        0.0000 
+      6 CA        -10.6245  -35.7230   23.2650 C.3       2 GLC5        0.0000 
+      7 CA        -11.0560  -35.3600   21.1940 C.3       6 GLL5        0.0000 
+      8 CA        -10.1930  -36.0860   25.3360 C.3       4 GLP5        0.0000 
+      9 N         -11.2930  -39.2135   22.8710 N.am      1 SEC2        0.0000 
+     10 N         -10.9440  -39.4210   21.3040 N.am      5 SEL2        0.0000 
+     11 N         -11.6420  -39.0060   24.4380 N.am      3 SEP2        0.0000 
+     12 CA         -9.3985  -36.7987   23.1055 C.3       2 GLC5        0.0000 
+     13 CA         -9.6680  -37.3920   21.5890 C.3       6 GLL5        0.0000 
+     14 CA         -9.1060  -36.8710   24.9900 C.3       4 GLP5        0.0000 
+@<TRIPOS>BOND
+@<TRIPOS>SUBSTRUCTURE
+     1 SEC2        9 GROUP        1 X    SEC  0     ROOT SEC X 2
+     2 GLC5        1 GROUP        1 X    GLC  0     **** GLC X 6
+     3 SEP2       11 GROUP        1 Y    SEP  0     ROOT SEP Y 9
+     4 GLP5        3 GROUP        1 Y    GLP  0     **** GLP Y 13
+     5 SEL2       10 GROUP        1 Z    SEL  0     ROOT SEL Z 16
+     6 GLL5        2 GROUP        1 Z    GLL  0     **** GLL Z 20
+@<TRIPOS>SET
+

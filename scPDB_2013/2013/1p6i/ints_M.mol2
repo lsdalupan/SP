@@ -1,0 +1,32 @@
+#    Name: 1p6i_DP3_2_INTS_M
+#    Modification time : Mon Mar 24 21:09:27 2014
+
+@<TRIPOS>MOLECULE
+1p6i_DP3_2_INTS_M
+   11     0     6     0     0
+SMALL
+NO_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 CA         15.4515   -1.9605   58.5780 C.3       2 GLC5        0.0000 
+      2 CA         15.4530    0.0930   58.5020 C.3       6 GLL5        0.0000 
+      3 CA         15.4500   -4.0140   58.6540 C.3       4 GLP5        0.0000 
+      4 O          13.0495   -0.6125   57.3005 O.2       1 ALC1        0.0000 
+      5 O          12.4830    0.2450   58.1810 O.2       5 ALL1        0.0000 
+      6 O          13.6160   -1.4700   56.4200 O.2       3 ALP1        0.0000 
+      7 CA         14.3520   -0.8175   60.1908 C.3       2 GLC5        0.0000 
+      8 CA         13.6820   -2.2830   61.5670 C.3       4 GLP5        0.0000 
+      9 CA         14.2692    2.8475   59.8165 C.3       2 GLC5        0.0000 
+     10 CA         14.5910    1.2030   59.1270 C.3       6 GLL5        0.0000 
+     11 CA         14.5880    4.3500   60.9010 C.3       4 GLP5        0.0000 
+@<TRIPOS>BOND
+@<TRIPOS>SUBSTRUCTURE
+     1 ALC1        4 GROUP        1 X    ALC  0     ROOT ALC X 1
+     2 GLC5        1 GROUP        1 X    GLC  0     **** GLC X 6
+     3 ALP1        6 GROUP        1 Y    ALP  0     ROOT ALP Y 8
+     4 GLP5        3 GROUP        1 Y    GLP  0     **** GLP Y 13
+     5 ALL1        5 GROUP        1 Z    ALL  0     ROOT ALL Z 15
+     6 GLL5        2 GROUP        1 Z    GLL  0     **** GLL Z 20
+@<TRIPOS>SET
+

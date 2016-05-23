@@ -1,0 +1,40 @@
+#    Name: 4ddm_0HO_1_INTS_M
+#    Modification time : Mon Apr  7 22:32:21 2014
+
+@<TRIPOS>MOLECULE
+4ddm_0HO_1_INTS_M
+   19     0     6     0     0
+SMALL
+NO_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          14.9495   12.6995    1.4685 N.am      1 SEC2        0.0000 
+      2 N          15.4630   11.4810    2.0480 N.am      5 SEL2        0.0000 
+      3 N          14.4360   13.9180    0.8890 N.am      3 SEP2        0.0000 
+      4 N          15.0320   13.5685    4.8615 N.am      1 SEC2        0.0000 
+      5 N          15.2630   12.9170    3.6320 N.am      5 SEL2        0.0000 
+      6 N          14.8010   14.2200    6.0910 N.am      3 SEP2        0.0000 
+      7 N          14.8495   13.4175    2.2605 N.am      1 SEC2        0.0000 
+      8 CA         11.6180    9.5880    7.9355 C.3       2 GLC5        0.0000 
+      9 CA         13.5130    8.8480    8.2560 C.3       6 GLL5        0.0000 
+     10 CA          9.7230   10.3280    7.6150 C.3       4 GLP5        0.0000 
+     11 CA         12.5380    7.4425    9.1635 C.3       2 GLC5        0.0000 
+     12 CA         11.5630    6.0370   10.0710 C.3       4 GLP5        0.0000 
+     13 CA         12.0450    7.7300    7.0300 C.3       2 GLC5        0.0000 
+     14 CA         10.5770    6.6120    5.8040 C.3       4 GLP5        0.0000 
+     15 CA         13.4215   12.0394    5.6077 C.3       2 GLC5        0.0000 
+     16 CA         14.4470   11.0470    5.4150 C.3       6 GLL5        0.0000 
+     17 CA         12.4800   13.5720    5.6880 C.3       4 GLP5        0.0000 
+     18 CA         15.7240   11.6714    6.4153 C.3       2 GLC5        0.0000 
+     19 CA         17.0850   12.8360    7.3030 C.3       4 GLP5        0.0000 
+@<TRIPOS>BOND
+@<TRIPOS>SUBSTRUCTURE
+     1 SEC2        1 GROUP        1 X    SEC  0     ROOT SEC X 2
+     2 GLC5        8 GROUP        1 X    GLC  0     **** GLC X 6
+     3 SEP2        3 GROUP        1 Y    SEP  0     ROOT SEP Y 9
+     4 GLP5       10 GROUP        1 Y    GLP  0     **** GLP Y 13
+     5 SEL2        2 GROUP        1 Z    SEL  0     ROOT SEL Z 16
+     6 GLL5        9 GROUP        1 Z    GLL  0     **** GLL Z 20
+@<TRIPOS>SET
+

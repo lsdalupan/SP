@@ -1,0 +1,39 @@
+#    Name: 1p6m_DP3_2_INTS_M
+#    Modification time : Mon Mar 24 21:10:13 2014
+
+@<TRIPOS>MOLECULE
+1p6m_DP3_2_INTS_M
+   15     0     9     0     0
+SMALL
+NO_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 CA          1.8290    2.2375   60.8210 C.3       3 GLC5        0.0000 
+      2 CA          0.2870    1.4670   61.4820 C.3       9 GLL5        0.0000 
+      3 CA          3.3710    3.0080   60.1600 C.3       6 GLP5        0.0000 
+      4 O          -0.8945    8.4895   64.8845 O.2       1 ALC1        0.0000 
+      5 O          -0.0840    7.9430   65.9180 O.2       7 ALL1        0.0000 
+      6 O          -1.7050    9.0360   63.8510 O.2       4 ALP1        0.0000 
+      7 N          -0.8835   10.6835   65.1945 N.am      2 SEC2        0.0000 
+      8 N          -0.3330   10.1570   66.3690 N.am      8 SEL2        0.0000 
+      9 N          -1.4340   11.2100   64.0200 N.am      5 SEP2        0.0000 
+     10 N           0.9055   10.2640   71.2460 N.am      2 SEC2        0.0000 
+     11 N           1.3860    9.3730   70.0450 N.am      8 SEL2        0.0000 
+     12 N           0.4250   11.1550   72.4470 N.am      5 SEP2        0.0000 
+     13 CA          0.2547    5.1428   67.5125 C.3       3 GLC5        0.0000 
+     14 CA          0.2980    6.4930   66.0690 C.3       9 GLL5        0.0000 
+     15 CA          0.8230    4.2520   68.9160 C.3       6 GLP5        0.0000 
+@<TRIPOS>BOND
+@<TRIPOS>SUBSTRUCTURE
+     1 ALC1        4 GROUP        1 X    ALC  0     ROOT ALC X 1
+     2 SEC2        7 GROUP        1 X    SEC  0     **** SEC X 2
+     3 GLC5        1 GROUP        1 X    GLC  0     **** GLC X 6
+     4 ALP1        6 GROUP        1 Y    ALP  0     ROOT ALP Y 8
+     5 SEP2        9 GROUP        1 Y    SEP  0     **** SEP Y 9
+     6 GLP5        3 GROUP        1 Y    GLP  0     **** GLP Y 13
+     7 ALL1        5 GROUP        1 Z    ALL  0     ROOT ALL Z 15
+     8 SEL2        8 GROUP        1 Z    SEL  0     **** SEL Z 16
+     9 GLL5        2 GROUP        1 Z    GLL  0     **** GLL Z 20
+@<TRIPOS>SET
+

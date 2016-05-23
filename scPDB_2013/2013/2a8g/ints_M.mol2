@@ -1,0 +1,45 @@
+#    Name: 2a8g_GNG_1_INTS_M
+#    Modification time : Mon Mar 24 18:38:11 2014
+
+@<TRIPOS>MOLECULE
+2a8g_GNG_1_INTS_M
+   21     0     9     0     0
+SMALL
+NO_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 CA          8.2050    1.8665    1.8700 C.3       3 GLC5        0.0000 
+      2 CA          9.7610    2.1560    0.2790 C.3       9 GLL5        0.0000 
+      3 CA          6.6490    1.5770    3.4610 C.3       6 GLP5        0.0000 
+      4 CA         11.7780    3.2165    2.6355 C.3       3 GLC5        0.0000 
+      5 CA         10.9090    2.1550    1.2640 C.3       9 GLL5        0.0000 
+      6 CA         12.6470    4.2780    4.0070 C.3       6 GLP5        0.0000 
+      7 CA         10.4705    1.3490    7.3275 C.3       3 GLC5        0.0000 
+      8 CA         10.9410   -0.6090    6.3430 C.3       9 GLL5        0.0000 
+      9 CA         10.0000    3.3070    8.3120 C.3       6 GLP5        0.0000 
+     10 N          12.5915   -2.6535    8.2210 N.am      2 SEC2        0.0000 
+     11 N          12.5570   -2.2150    6.9990 N.am      8 SEL2        0.0000 
+     12 N          12.6260   -3.0920    9.4430 N.am      5 SEP2        0.0000 
+     13 O          14.9840   -1.8215    6.9595 O.2       1 ALC1        0.0000 
+     14 O          14.4390   -2.6400    5.7710 O.2       7 ALL1        0.0000 
+     15 O          15.5290   -1.0030    8.1480 O.2       4 ALP1        0.0000 
+     16 CA         12.9440    2.3805    0.1590 C.3       3 GLC5        0.0000 
+     17 CA         11.9530    1.0830    1.0060 C.3       9 GLL5        0.0000 
+     18 CA         14.4570    3.1420   -0.8170 C.3       6 GLP5        0.0000 
+     19 CA         12.4835    2.0426    3.3044 C.3       3 GLC5        0.0000 
+     20 CA         11.9820    0.2230    2.2550 C.3       9 GLL5        0.0000 
+     21 CA         13.1340    3.1850    4.7250 C.3       6 GLP5        0.0000 
+@<TRIPOS>BOND
+@<TRIPOS>SUBSTRUCTURE
+     1 ALC1       13 GROUP        1 X    ALC  0     ROOT ALC X 1
+     2 SEC2       10 GROUP        1 X    SEC  0     **** SEC X 2
+     3 GLC5        1 GROUP        1 X    GLC  0     **** GLC X 6
+     4 ALP1       15 GROUP        1 Y    ALP  0     ROOT ALP Y 8
+     5 SEP2       12 GROUP        1 Y    SEP  0     **** SEP Y 9
+     6 GLP5        3 GROUP        1 Y    GLP  0     **** GLP Y 13
+     7 ALL1       14 GROUP        1 Z    ALL  0     ROOT ALL Z 15
+     8 SEL2       11 GROUP        1 Z    SEL  0     **** SEL Z 16
+     9 GLL5        2 GROUP        1 Z    GLL  0     **** GLL Z 20
+@<TRIPOS>SET
+

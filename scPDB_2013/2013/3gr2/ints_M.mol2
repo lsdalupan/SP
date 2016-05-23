@@ -1,0 +1,33 @@
+#    Name: 3gr2_GF4_1_INTS_M
+#    Modification time : Tue Mar 25 12:52:21 2014
+
+@<TRIPOS>MOLECULE
+3gr2_GF4_1_INTS_M
+   12     0     6     0     0
+SMALL
+NO_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 CA        -33.2540    5.2065   11.4480 C.3       2 GLC5        0.0000 
+      2 CA        -34.2690    6.1600   12.6930 C.3       6 GLL5        0.0000 
+      3 CA        -32.2390    4.2530   10.2030 C.3       4 GLP5        0.0000 
+      4 N         -40.4975    3.4905   12.0105 N.am      1 SEC2        0.0000 
+      5 N         -40.0810    3.7240   10.6250 N.am      5 SEL2        0.0000 
+      6 N         -40.9140    3.2570   13.3960 N.am      3 SEP2        0.0000 
+      7 N         -39.7745    2.5750    7.4040 N.am      1 SEC2        0.0000 
+      8 N         -39.8430    3.6390    8.3590 N.am      5 SEL2        0.0000 
+      9 N         -39.7060    1.5110    6.4490 N.am      3 SEP2        0.0000 
+     10 CA        -38.1870    4.3208   13.9812 C.3       2 GLC5        0.0000 
+     11 CA        -37.5930    6.0490   12.9870 C.3       6 GLL5        0.0000 
+     12 CA        -38.7990    2.3840   14.2510 C.3       4 GLP5        0.0000 
+@<TRIPOS>BOND
+@<TRIPOS>SUBSTRUCTURE
+     1 SEC2        4 GROUP        1 X    SEC  0     ROOT SEC X 2
+     2 GLC5        1 GROUP        1 X    GLC  0     **** GLC X 6
+     3 SEP2        6 GROUP        1 Y    SEP  0     ROOT SEP Y 9
+     4 GLP5        3 GROUP        1 Y    GLP  0     **** GLP Y 13
+     5 SEL2        5 GROUP        1 Z    SEL  0     ROOT SEL Z 16
+     6 GLL5        2 GROUP        1 Z    GLL  0     **** GLL Z 20
+@<TRIPOS>SET
+

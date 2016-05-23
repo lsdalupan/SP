@@ -1,0 +1,37 @@
+#    Name: 4fjp_NPS_1_INTS_M
+#    Modification time : Mon Mar 24 20:07:04 2014
+
+@<TRIPOS>MOLECULE
+4fjp_NPS_1_INTS_M
+   16     0     6     0     0
+SMALL
+NO_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 CA         14.1310   13.3245   10.3380 C.3       2 GLC5        0.0000 
+      2 CA         13.5250   12.7960   12.4010 C.3       6 GLL5        0.0000 
+      3 CA         14.7370   13.8530    8.2750 C.3       4 GLP5        0.0000 
+      4 N          16.3925   13.7290   13.4435 N.am      1 SEC2        0.0000 
+      5 N          15.6540   12.8810   14.2770 N.am      5 SEL2        0.0000 
+      6 N          17.1310   14.5770   12.6100 N.am      3 SEP2        0.0000 
+      7 N          15.4920   11.3265   14.1665 N.am      1 SEC2        0.0000 
+      8 N          15.3300    9.7720   14.0560 N.am      3 SEP2        0.0000 
+      9 CA         13.5255   12.1210   11.5822 C.3       2 GLC5        0.0000 
+     10 CA         13.7870   13.9800   13.3240 C.3       6 GLL5        0.0000 
+     11 CA         13.3950   10.8540   10.3020 C.3       4 GLP5        0.0000 
+     12 CA         13.3605   11.7710   13.8942 C.3       2 GLC5        0.0000 
+     13 CA         13.0650   10.1540   14.9260 C.3       4 GLP5        0.0000 
+     14 CA          9.6071   15.9911   18.0554 C.3       2 GLC5        0.0000 
+     15 CA         11.2200   16.7950   16.4120 C.3       6 GLL5        0.0000 
+     16 CA          8.9070   15.0350   19.6490 C.3       4 GLP5        0.0000 
+@<TRIPOS>BOND
+@<TRIPOS>SUBSTRUCTURE
+     1 SEC2        4 GROUP        1 X    SEC  0     ROOT SEC X 2
+     2 GLC5        1 GROUP        1 X    GLC  0     **** GLC X 6
+     3 SEP2        6 GROUP        1 Y    SEP  0     ROOT SEP Y 9
+     4 GLP5        3 GROUP        1 Y    GLP  0     **** GLP Y 13
+     5 SEL2        5 GROUP        1 Z    SEL  0     ROOT SEL Z 16
+     6 GLL5        2 GROUP        1 Z    GLL  0     **** GLL Z 20
+@<TRIPOS>SET
+

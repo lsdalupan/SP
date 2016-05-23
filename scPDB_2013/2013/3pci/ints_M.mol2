@@ -1,0 +1,39 @@
+#    Name: 3pci_IHB_1_INTS_M
+#    Modification time : Tue Mar 25 06:15:12 2014
+
+@<TRIPOS>MOLECULE
+3pci_IHB_1_INTS_M
+   18     0     6     0     0
+SMALL
+NO_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 CA         16.4730   10.1950   41.5860 C.3       2 GLC5        0.0000 
+      2 CA         14.4310   10.4840   41.3710 C.3       6 GLL5        0.0000 
+      3 CA         18.5150    9.9060   41.8010 C.3       4 GLP5        0.0000 
+      4 CA         16.8420    9.8025   38.4990 C.3       2 GLC5        0.0000 
+      5 CA         15.2990    9.7890   39.7010 C.3       6 GLL5        0.0000 
+      6 CA         18.3850    9.8160   37.2970 C.3       4 GLP5        0.0000 
+      7 CA         16.9070    9.8475   40.7510 C.3       2 GLC5        0.0000 
+      8 CA         15.0660   10.7940   38.1690 C.3       2 GLC5        0.0000 
+      9 CA         14.8330   11.7990   36.6370 C.3       4 GLP5        0.0000 
+     10 Zn         13.6160    7.5845   42.2115 Zn        1 ZIC7        0.0000 
+     11 Zn         14.0060    8.2680   42.1150 Zn        5 ZIL7        0.0000 
+     12 Zn         13.2260    6.9010   42.3080 Zn        3 ZIP7        0.0000 
+     13 CA         15.6490   11.0514   42.6750 C.3       2 GLC5        0.0000 
+     14 CA         14.4170   11.8550   41.5910 C.3       6 GLL5        0.0000 
+     15 CA         17.1100   11.7170   43.4470 C.3       4 GLP5        0.0000 
+     16 CA         14.9997   11.6409   44.0627 C.3       2 GLC5        0.0000 
+     17 CA         13.3210   11.4600   43.7290 C.3       6 GLL5        0.0000 
+     18 CA         16.5260   12.2820   44.7510 C.3       4 GLP5        0.0000 
+@<TRIPOS>BOND
+@<TRIPOS>SUBSTRUCTURE
+     1 ZIC7       10 GROUP        1 X    ZIC  0     ROOT ZIC X 5
+     2 GLC5        1 GROUP        1 X    GLC  0     **** GLC X 6
+     3 ZIP7       12 GROUP        1 Y    ZIP  0     ROOT ZIP Y 12
+     4 GLP5        3 GROUP        1 Y    GLP  0     **** GLP Y 13
+     5 ZIL7       11 GROUP        1 Z    ZIL  0     ROOT ZIL Z 19
+     6 GLL5        2 GROUP        1 Z    GLL  0     **** GLL Z 20
+@<TRIPOS>SET
+

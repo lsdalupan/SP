@@ -1,0 +1,41 @@
+#    Name: 1tlw_THM_3_INTS_M
+#    Modification time : Tue Mar 25 05:30:40 2014
+
+@<TRIPOS>MOLECULE
+1tlw_THM_3_INTS_M
+   20     0     6     0     0
+SMALL
+NO_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 O         -50.4820   64.3400    1.9780 O.2       1 ALC1        0.0000 
+      2 O         -49.7620   63.0980    2.3980 O.2       5 ALL1        0.0000 
+      3 O         -51.2020   65.5820    1.5580 O.2       3 ALP1        0.0000 
+      4 CA        -50.0190   63.9900   -0.5625 C.3       2 GLC5        0.0000 
+      5 CA        -49.1850   63.1390    1.0950 C.3       6 GLL5        0.0000 
+      6 CA        -50.8530   64.8410   -2.2200 C.3       4 GLP5        0.0000 
+      7 CA        -49.9205   63.2305    3.0270 C.3       2 GLC5        0.0000 
+      8 CA        -50.6560   63.3220    4.9590 C.3       4 GLP5        0.0000 
+      9 CA        -48.8205   60.8195    4.4705 C.3       2 GLC5        0.0000 
+     10 CA        -48.3880   60.3510    2.7250 C.3       6 GLL5        0.0000 
+     11 CA        -49.2530   61.2880    6.2160 C.3       4 GLP5        0.0000 
+     12 CA        -45.1560   61.0120    1.8320 C.3       2 GLC5        0.0000 
+     13 CA        -46.9760   60.8540    2.4720 C.3       6 GLL5        0.0000 
+     14 CA        -43.3360   61.1700    1.1920 C.3       4 GLP5        0.0000 
+     15 CA        -47.8120   61.6865    4.2470 C.3       2 GLC5        0.0000 
+     16 CA        -48.6480   62.5190    6.0220 C.3       4 GLP5        0.0000 
+     17 CA        -43.9895   62.6380    4.1474 C.3       2 GLC5        0.0000 
+     18 CA        -45.2230   62.8060    5.1610 C.3       6 GLL5        0.0000 
+     19 CA        -42.5080   62.2750    3.6040 C.3       4 GLP5        0.0000 
+     20 CA        -47.0595   62.7600    5.3564 C.3       2 GLC5        0.0000 
+@<TRIPOS>BOND
+@<TRIPOS>SUBSTRUCTURE
+     1 ALC1        1 GROUP        1 X    ALC  0     ROOT ALC X 1
+     2 GLC5        4 GROUP        1 X    GLC  0     **** GLC X 6
+     3 ALP1        3 GROUP        1 Y    ALP  0     ROOT ALP Y 8
+     4 GLP5        6 GROUP        1 Y    GLP  0     **** GLP Y 13
+     5 ALL1        2 GROUP        1 Z    ALL  0     ROOT ALL Z 15
+     6 GLL5        5 GROUP        1 Z    GLL  0     **** GLL Z 20
+@<TRIPOS>SET
+

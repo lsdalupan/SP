@@ -1,0 +1,44 @@
+#    Name: 1mlz_TZA_1_INTS_M
+#    Modification time : Mon Apr  7 14:41:35 2014
+
+@<TRIPOS>MOLECULE
+1mlz_TZA_1_INTS_M
+   20     0     9     0     0
+SMALL
+NO_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 CA         48.0625    2.0115   12.0795 C.3       3 GLC5        0.0000 
+      2 CA         47.2770    0.3370   12.4250 C.3       9 GLL5        0.0000 
+      3 CA         48.8480    3.6860   11.7340 C.3       6 GLP5        0.0000 
+      4 CA         45.1700   -1.6225   10.2130 C.3       3 GLC5        0.0000 
+      5 CA         46.4170   -0.5160   11.4650 C.3       9 GLL5        0.0000 
+      6 CA         43.9230   -2.7290    8.9610 C.3       6 GLP5        0.0000 
+      7 CA         45.7910   -0.8325    8.6800 C.3       3 GLC5        0.0000 
+      8 CA         46.8760   -0.5240    9.9970 C.3       9 GLL5        0.0000 
+      9 CA         44.7060   -1.1410    7.3630 C.3       6 GLP5        0.0000 
+     10 NZ         48.7265    2.3190    8.6995 N.4       2 LYC4        0.0000 
+     11 NZ         48.3550    1.1000    9.1370 N.4       8 LYL4        0.0000 
+     12 NZ         50.2060    3.4640    7.5480 N.4       5 LYP4        0.0000 
+     13 N          48.7265    2.3190    8.6995 N.am      1 SEC2        0.0000 
+     14 N          48.3550    1.1000    9.1370 N.am      7 SEL2        0.0000 
+     15 N          49.0980    3.5380    8.2620 N.am      4 SEP2        0.0000 
+     16 CA         44.2390   -1.5915   15.0350 C.3       3 GLC5        0.0000 
+     17 CA         45.0610    0.6180   15.4520 C.3       9 GLL5        0.0000 
+     18 CA         43.2260   -3.2130   14.2970 C.3       6 GLP5        0.0000 
+     19 CA         44.9928   -2.1917   14.6425 C.3       3 GLC5        0.0000 
+     20 CA         46.4480   -1.3550   15.5740 C.3       9 GLL5        0.0000 
+@<TRIPOS>BOND
+@<TRIPOS>SUBSTRUCTURE
+     1 SEC2       13 GROUP        1 X    SEC  0     ROOT SEC X 2
+     2 LYC4       10 GROUP        1 X    LYC  0     **** LYC X 4
+     3 GLC5        1 GROUP        1 X    GLC  0     **** GLC X 6
+     4 SEP2       15 GROUP        1 Y    SEP  0     ROOT SEP Y 9
+     5 LYP4       12 GROUP        1 Y    LYP  0     **** LYP Y 11
+     6 GLP5        3 GROUP        1 Y    GLP  0     **** GLP Y 13
+     7 SEL2       14 GROUP        1 Z    SEL  0     ROOT SEL Z 16
+     8 LYL4       11 GROUP        1 Z    LYL  0     **** LYL Z 18
+     9 GLL5        2 GROUP        1 Z    GLL  0     **** GLL Z 20
+@<TRIPOS>SET
+

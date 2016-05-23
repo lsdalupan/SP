@@ -1,0 +1,30 @@
+#    Name: 1oe6_HMU_2_INTS_M
+#    Modification time : Mon Mar 24 20:00:30 2014
+
+@<TRIPOS>MOLECULE
+1oe6_HMU_2_INTS_M
+    9     0     6     0     0
+SMALL
+NO_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N           2.6130   12.4375   46.3155 N.am      1 SEC2        0.0000 
+      2 N           3.6940   11.4090   45.9270 N.am      5 SEL2        0.0000 
+      3 N           1.5320   13.4660   46.7040 N.am      3 SEP2        0.0000 
+      4 CA          6.7600   14.2700   41.1540 C.3       2 GLC5        0.0000 
+      5 CA          7.6820   13.9500   43.0530 C.3       6 GLL5        0.0000 
+      6 CA          5.8380   14.5900   39.2550 C.3       4 GLP5        0.0000 
+      7 CA          3.5225   14.5915   43.5935 C.3       2 GLC5        0.0000 
+      8 CA          5.4910   13.7040   44.1700 C.3       6 GLL5        0.0000 
+      9 CA          1.5540   15.4790   43.0170 C.3       4 GLP5        0.0000 
+@<TRIPOS>BOND
+@<TRIPOS>SUBSTRUCTURE
+     1 SEC2        1 GROUP        1 X    SEC  0     ROOT SEC X 2
+     2 GLC5        4 GROUP        1 X    GLC  0     **** GLC X 6
+     3 SEP2        3 GROUP        1 Y    SEP  0     ROOT SEP Y 9
+     4 GLP5        6 GROUP        1 Y    GLP  0     **** GLP Y 13
+     5 SEL2        2 GROUP        1 Z    SEL  0     ROOT SEL Z 16
+     6 GLL5        5 GROUP        1 Z    GLL  0     **** GLL Z 20
+@<TRIPOS>SET
+

@@ -1,0 +1,38 @@
+#    Name: 1dp2_LPB_1_INTS_M
+#    Modification time : Mon Mar 24 22:15:53 2014
+
+@<TRIPOS>MOLECULE
+1dp2_LPB_1_INTS_M
+   17     0     6     0     0
+SMALL
+NO_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N          43.3655   13.4110   36.8470 N.am      1 SEC2        0.0000 
+      2 N          42.0720   12.9790   37.4180 N.am      5 SEL2        0.0000 
+      3 N          44.6590   13.8430   36.2760 N.am      3 SEP2        0.0000 
+      4 CA         43.0100   15.0815   33.8655 C.3       2 GLC5        0.0000 
+      5 CA         41.4630   14.6270   34.8920 C.3       6 GLL5        0.0000 
+      6 CA         44.5570   15.5360   32.8390 C.3       4 GLP5        0.0000 
+      7 CA         43.2965   16.1445   34.3510 C.3       2 GLC5        0.0000 
+      8 CA         42.0360   16.7530   35.8630 C.3       6 GLL5        0.0000 
+      9 CA         47.2190   16.7935   37.7905 C.3       2 GLC5        0.0000 
+     10 CA         45.2810   16.8850   37.7640 C.3       6 GLL5        0.0000 
+     11 CA         49.1570   16.7020   37.8170 C.3       4 GLP5        0.0000 
+     12 CA         45.2630   19.8040   37.2505 C.3       2 GLC5        0.0000 
+     13 CA         43.9930   18.1940   36.9490 C.3       6 GLL5        0.0000 
+     14 CA         46.5330   21.4140   37.5520 C.3       4 GLP5        0.0000 
+     15 CA         42.5289   17.2579   39.5987 C.3       2 GLC5        0.0000 
+     16 CA         42.4540   17.2880   37.2200 C.3       6 GLL5        0.0000 
+     17 CA         41.7380   18.1730   40.9520 C.3       4 GLP5        0.0000 
+@<TRIPOS>BOND
+@<TRIPOS>SUBSTRUCTURE
+     1 SEC2        1 GROUP        1 X    SEC  0     ROOT SEC X 2
+     2 GLC5        4 GROUP        1 X    GLC  0     **** GLC X 6
+     3 SEP2        3 GROUP        1 Y    SEP  0     ROOT SEP Y 9
+     4 GLP5        6 GROUP        1 Y    GLP  0     **** GLP Y 13
+     5 SEL2        2 GROUP        1 Z    SEL  0     ROOT SEL Z 16
+     6 GLL5        5 GROUP        1 Z    GLL  0     **** GLL Z 20
+@<TRIPOS>SET
+

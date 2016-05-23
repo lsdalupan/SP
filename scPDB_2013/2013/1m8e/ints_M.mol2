@@ -1,0 +1,30 @@
+#    Name: 1m8e_7NI_1_INTS_M
+#    Modification time : Tue Mar 25 11:27:03 2014
+
+@<TRIPOS>MOLECULE
+1m8e_7NI_1_INTS_M
+    9     0     6     0     0
+SMALL
+NO_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 O         125.4810  116.3895   29.6350 O.2       1 ALC1        0.0000 
+      2 O         125.5490  115.1200   30.4180 O.2       5 ALL1        0.0000 
+      3 O         125.4130  117.6590   28.8520 O.2       3 ALP1        0.0000 
+      4 CA        125.4719  115.3554   32.4586 C.3       2 GLC5        0.0000 
+      5 CA        124.5470  114.4620   31.1260 C.3       6 GLL5        0.0000 
+      6 CA        126.4260  116.7930   33.5330 C.3       4 GLP5        0.0000 
+      7 CA        124.9669  111.5468   33.3730 C.3       2 GLC5        0.0000 
+      8 CA        125.1190  113.2100   31.4440 C.3       6 GLL5        0.0000 
+      9 CA        125.5870  110.2630   34.8120 C.3       4 GLP5        0.0000 
+@<TRIPOS>BOND
+@<TRIPOS>SUBSTRUCTURE
+     1 ALC1        1 GROUP        1 X    ALC  0     ROOT ALC X 1
+     2 GLC5        4 GROUP        1 X    GLC  0     **** GLC X 6
+     3 ALP1        3 GROUP        1 Y    ALP  0     ROOT ALP Y 8
+     4 GLP5        6 GROUP        1 Y    GLP  0     **** GLP Y 13
+     5 ALL1        2 GROUP        1 Z    ALL  0     ROOT ALL Z 15
+     6 GLL5        5 GROUP        1 Z    GLL  0     **** GLL Z 20
+@<TRIPOS>SET
+

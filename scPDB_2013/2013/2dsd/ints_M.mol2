@@ -1,0 +1,56 @@
+#    Name: 2dsd_AMP_1_INTS_M
+#    Modification time : Tue Mar 25 10:17:29 2014
+
+@<TRIPOS>MOLECULE
+2dsd_AMP_1_INTS_M
+   29     0    12     0     0
+SMALL
+NO_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 Zn          3.0135   13.1445   61.9815 Zn        3 ZIC7        0.0000 
+      2 Zn          2.1060   13.9190   62.5560 Zn       11 ZIL7        0.0000 
+      3 Zn          3.9210   12.3700   61.4070 Zn        7 ZIP7        0.0000 
+      4 Zn          2.5775   15.1850   62.6480 Zn        3 ZIC7        0.0000 
+      5 Zn          3.0490   16.4510   62.7400 Zn        7 ZIP7        0.0000 
+      6 Zn         -0.3735   11.0960   62.8525 Zn        3 ZIC7        0.0000 
+      7 Zn          0.4660   12.0400   63.4110 Zn       11 ZIL7        0.0000 
+      8 Zn         -1.2130   10.1520   62.2940 Zn        7 ZIP7        0.0000 
+      9 CA          1.0630   12.2445   69.2800 C.3       4 GLC5        0.0000 
+     10 CA          2.5610   12.8950   68.1030 C.3      12 GLL5        0.0000 
+     11 CA         -0.4350   11.5940   70.4570 C.3       8 GLP5        0.0000 
+     12 CA          1.9365   12.1590   70.3210 C.3       4 GLC5        0.0000 
+     13 CA          3.2340   13.2690   69.4590 C.3      12 GLL5        0.0000 
+     14 CA          0.6390   11.0490   71.1830 C.3       8 GLP5        0.0000 
+     15 CA          3.5040   16.3590   69.9675 C.3       4 GLC5        0.0000 
+     16 CA          2.9950   14.7930   69.5310 C.3      12 GLL5        0.0000 
+     17 CA          4.0130   17.9250   70.4040 C.3       8 GLP5        0.0000 
+     18 O          -2.5505   15.0815   74.7305 O.2       1 ALC1        0.0000 
+     19 O          -1.5020   15.5010   73.5390 O.2       9 ALL1        0.0000 
+     20 O          -3.5990   14.6620   75.9220 O.2       5 ALP1        0.0000 
+     21 N          -0.2120   14.3915   75.7060 N.am      2 SEC2        0.0000 
+     22 N           0.5810   14.5500   74.2360 N.am     10 SEL2        0.0000 
+     23 N          -1.0050   14.2330   77.1760 N.am      6 SEP2        0.0000 
+     24 CA          1.2335   13.2210   75.3675 C.3       4 GLC5        0.0000 
+     25 CA          1.9870   14.0880   73.9910 C.3      12 GLL5        0.0000 
+     26 CA          0.4800   12.3540   76.7440 C.3       8 GLP5        0.0000 
+     27 CA          0.0267   16.9588   73.2675 C.3       4 GLC5        0.0000 
+     28 CA         -0.2420   15.1110   73.2340 C.3      12 GLL5        0.0000 
+     29 CA          0.0570   18.7280   73.9680 C.3       8 GLP5        0.0000 
+@<TRIPOS>BOND
+@<TRIPOS>SUBSTRUCTURE
+     1 ALC1       18 GROUP        1 X    ALC  0     ROOT ALC X 1
+     2 SEC2       21 GROUP        1 X    SEC  0     **** SEC X 2
+     3 ZIC7        1 GROUP        1 X    ZIC  0     **** ZIC X 5
+     4 GLC5        9 GROUP        1 X    GLC  0     **** GLC X 6
+     5 ALP1       20 GROUP        1 Y    ALP  0     ROOT ALP Y 8
+     6 SEP2       23 GROUP        1 Y    SEP  0     **** SEP Y 9
+     7 ZIP7        3 GROUP        1 Y    ZIP  0     **** ZIP Y 12
+     8 GLP5       11 GROUP        1 Y    GLP  0     **** GLP Y 13
+     9 ALL1       19 GROUP        1 Z    ALL  0     ROOT ALL Z 15
+    10 SEL2       22 GROUP        1 Z    SEL  0     **** SEL Z 16
+    11 ZIL7        2 GROUP        1 Z    ZIL  0     **** ZIL Z 19
+    12 GLL5       10 GROUP        1 Z    GLL  0     **** GLL Z 20
+@<TRIPOS>SET
+

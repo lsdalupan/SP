@@ -1,0 +1,33 @@
+#    Name: 4e5f_0N7_3_INTS_M
+#    Modification time : Mon Apr  7 23:17:59 2014
+
+@<TRIPOS>MOLECULE
+4e5f_0N7_3_INTS_M
+   12     0     6     0     0
+SMALL
+NO_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 Zn         -6.6425  -18.5530   16.8505 Zn        2 ZIC7        0.0000 
+      2 Zn         -5.6530  -18.0470   17.1460 Zn        6 ZIL7        0.0000 
+      3 Zn         -7.6320  -19.0590   16.5550 Zn        4 ZIP7        0.0000 
+      4 N          -4.7540  -19.2265   17.7995 N.am      1 SEC2        0.0000 
+      5 N          -5.6530  -18.0470   17.1460 N.am      5 SEL2        0.0000 
+      6 N          -3.8550  -20.4060   18.4530 N.am      3 SEP2        0.0000 
+      7 Zn         -7.7780  -18.1895   17.4145 Zn        2 ZIC7        0.0000 
+      8 Zn         -7.9240  -17.3200   18.2740 Zn        6 ZIL7        0.0000 
+      9 Zn         -8.8080  -17.0420   18.6760 Zn        2 ZIC7        0.0000 
+     10 Zn         -9.6920  -16.7640   19.0780 Zn        4 ZIP7        0.0000 
+     11 Zn         -8.8405  -16.2220   19.7180 Zn        2 ZIC7        0.0000 
+     12 Zn         -7.9890  -15.6800   20.3580 Zn        6 ZIL7        0.0000 
+@<TRIPOS>BOND
+@<TRIPOS>SUBSTRUCTURE
+     1 SEC2        4 GROUP        1 X    SEC  0     ROOT SEC X 2
+     2 ZIC7        1 GROUP        1 X    ZIC  0     **** ZIC X 5
+     3 SEP2        6 GROUP        1 Y    SEP  0     ROOT SEP Y 9
+     4 ZIP7        3 GROUP        1 Y    ZIP  0     **** ZIP Y 12
+     5 SEL2        5 GROUP        1 Z    SEL  0     ROOT SEL Z 16
+     6 ZIL7        2 GROUP        1 Z    ZIL  0     **** ZIL Z 19
+@<TRIPOS>SET
+

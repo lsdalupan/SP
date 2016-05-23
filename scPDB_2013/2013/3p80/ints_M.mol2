@@ -1,0 +1,24 @@
+#    Name: 3p80_P80_2_INTS_M
+#    Modification time : Tue Mar 25 06:02:57 2014
+
+@<TRIPOS>MOLECULE
+3p80_P80_2_INTS_M
+    6     0     3     0     0
+SMALL
+NO_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 CA          6.0065  -14.6020  -31.2950 C.3       1 GLC5        0.0000 
+      2 CA          5.8020  -13.6870  -29.2780 C.3       3 GLL5        0.0000 
+      3 CA          6.2110  -15.5170  -33.3120 C.3       2 GLP5        0.0000 
+      4 CA          5.8310  -11.7880  -31.7795 C.3       1 GLC5        0.0000 
+      5 CA          5.7830  -12.3380  -29.6110 C.3       3 GLL5        0.0000 
+      6 CA          5.8790  -11.2380  -33.9480 C.3       2 GLP5        0.0000 
+@<TRIPOS>BOND
+@<TRIPOS>SUBSTRUCTURE
+     1 GLC5        1 GROUP        1 X    GLC  0     ROOT GLC X 6
+     2 GLP5        3 GROUP        1 Y    GLP  0     ROOT GLP Y 13
+     3 GLL5        2 GROUP        1 Z    GLL  0     ROOT GLL Z 20
+@<TRIPOS>SET
+

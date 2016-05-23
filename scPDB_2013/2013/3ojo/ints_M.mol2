@@ -1,0 +1,27 @@
+#    Name: 3ojo_PDC_4_INTS_M
+#    Modification time : Tue Mar 25 04:45:25 2014
+
+@<TRIPOS>MOLECULE
+3ojo_PDC_4_INTS_M
+    6     0     6     0     0
+SMALL
+NO_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 CA         10.3030   82.5580  110.6550 C.3       2 GLC5        0.0000 
+      2 CA         10.8570   80.7130  109.5930 C.3       6 GLL5        0.0000 
+      3 CA          9.7490   84.4030  111.7170 C.3       4 GLP5        0.0000 
+      4 NZ          7.9940   79.6710  108.7780 N.4       1 LYC4        0.0000 
+      5 NZ          8.3190   81.6040  108.6980 N.4       5 LYL4        0.0000 
+      6 NZ          7.6690   77.7380  108.8580 N.4       3 LYP4        0.0000 
+@<TRIPOS>BOND
+@<TRIPOS>SUBSTRUCTURE
+     1 LYC4        4 GROUP        1 X    LYC  0     ROOT LYC X 4
+     2 GLC5        1 GROUP        1 X    GLC  0     **** GLC X 6
+     3 LYP4        6 GROUP        1 Y    LYP  0     ROOT LYP Y 11
+     4 GLP5        3 GROUP        1 Y    GLP  0     **** GLP Y 13
+     5 LYL4        5 GROUP        1 Z    LYL  0     ROOT LYL Z 18
+     6 GLL5        2 GROUP        1 Z    GLL  0     **** GLL Z 20
+@<TRIPOS>SET
+

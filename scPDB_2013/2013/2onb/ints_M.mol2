@@ -1,0 +1,39 @@
+#    Name: 2onb_7PA_1_INTS_M
+#    Modification time : Tue Mar 25 23:00:48 2014
+
+@<TRIPOS>MOLECULE
+2onb_7PA_1_INTS_M
+   15     0     9     0     0
+SMALL
+NO_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 NZ         53.5775  -12.1855   26.4840 N.4       2 LYC4        0.0000 
+      2 NZ         52.7180  -12.7770   26.7340 N.4       8 LYL4        0.0000 
+      3 NZ         53.9650  -10.4050   25.9120 N.4       5 LYP4        0.0000 
+      4 N          53.5775  -12.1855   26.4840 N.am      1 SEC2        0.0000 
+      5 N          52.7180  -12.7770   26.7340 N.am      7 SEL2        0.0000 
+      6 N          54.4370  -11.5940   26.2340 N.am      4 SEP2        0.0000 
+      7 CA         51.7640  -18.6100   25.0425 C.3       3 GLC5        0.0000 
+      8 CA         50.8790  -17.6940   26.8310 C.3       9 GLL5        0.0000 
+      9 CA         52.6490  -19.5260   23.2540 C.3       6 GLP5        0.0000 
+     10 NZ         53.1500  -19.7675   27.3415 N.4       2 LYC4        0.0000 
+     11 NZ         51.5400  -19.8480   28.1780 N.4       8 LYL4        0.0000 
+     12 NZ         54.7600  -19.6870   26.5050 N.4       5 LYP4        0.0000 
+     13 N          49.1375  -13.0540   27.0545 N.am      1 SEC2        0.0000 
+     14 N          50.2560  -13.3580   27.0200 N.am      7 SEL2        0.0000 
+     15 N          48.0190  -12.7500   27.0890 N.am      4 SEP2        0.0000 
+@<TRIPOS>BOND
+@<TRIPOS>SUBSTRUCTURE
+     1 SEC2        4 GROUP        1 X    SEC  0     ROOT SEC X 2
+     2 LYC4        1 GROUP        1 X    LYC  0     **** LYC X 4
+     3 GLC5        7 GROUP        1 X    GLC  0     **** GLC X 6
+     4 SEP2        6 GROUP        1 Y    SEP  0     ROOT SEP Y 9
+     5 LYP4        3 GROUP        1 Y    LYP  0     **** LYP Y 11
+     6 GLP5        9 GROUP        1 Y    GLP  0     **** GLP Y 13
+     7 SEL2        5 GROUP        1 Z    SEL  0     ROOT SEL Z 16
+     8 LYL4        2 GROUP        1 Z    LYL  0     **** LYL Z 18
+     9 GLL5        8 GROUP        1 Z    GLL  0     **** GLL Z 20
+@<TRIPOS>SET
+

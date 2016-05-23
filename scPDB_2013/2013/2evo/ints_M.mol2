@@ -1,0 +1,41 @@
+#    Name: 2evo_CT0_1_INTS_M
+#    Modification time : Tue Mar 25 12:06:53 2014
+
+@<TRIPOS>MOLECULE
+2evo_CT0_1_INTS_M
+   20     0     6     0     0
+SMALL
+NO_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 CA          0.7715    4.2460   35.7750 C.3       2 GLC5        0.0000 
+      2 CA         -0.5030    5.0470   36.6410 C.3       6 GLL5        0.0000 
+      3 CA          2.0460    3.4450   34.9090 C.3       4 GLP5        0.0000 
+      4 Zn         -3.6300    0.7055   35.1760 Zn        1 ZIC7        0.0000 
+      5 Zn         -4.4540    0.1800   35.6890 Zn        5 ZIL7        0.0000 
+      6 Zn         -2.8060    1.2310   34.6630 Zn        3 ZIP7        0.0000 
+      7 CA         -4.7445   -3.4485   36.5650 C.3       2 GLC5        0.0000 
+      8 CA         -5.9970   -2.5120   37.9180 C.3       6 GLL5        0.0000 
+      9 CA         -3.4920   -4.3850   35.2120 C.3       4 GLP5        0.0000 
+     10 CA         -2.3600    6.1788   39.2950 C.3       2 GLC5        0.0000 
+     11 CA         -2.0200    4.1420   38.3150 C.3       6 GLL5        0.0000 
+     12 CA         -3.2810    7.6500   40.4530 C.3       4 GLP5        0.0000 
+     13 CA         -0.1755    5.1743   39.5165 C.3       2 GLC5        0.0000 
+     14 CA         -0.8580    5.2730   37.9590 C.3       6 GLL5        0.0000 
+     15 CA          1.0880    5.6410   40.8960 C.3       4 GLP5        0.0000 
+     16 CA         -0.3117    6.8050   36.8470 C.3       2 GLC5        0.0000 
+     17 CA          0.0570    8.4500   36.3940 C.3       4 GLP5        0.0000 
+     18 CA         -7.4350    0.6945   36.3787 C.3       2 GLC5        0.0000 
+     19 CA         -6.3190   -1.1520   37.2810 C.3       6 GLL5        0.0000 
+     20 CA         -7.7950    2.4930   35.3470 C.3       4 GLP5        0.0000 
+@<TRIPOS>BOND
+@<TRIPOS>SUBSTRUCTURE
+     1 ZIC7        4 GROUP        1 X    ZIC  0     ROOT ZIC X 5
+     2 GLC5        1 GROUP        1 X    GLC  0     **** GLC X 6
+     3 ZIP7        6 GROUP        1 Y    ZIP  0     ROOT ZIP Y 12
+     4 GLP5        3 GROUP        1 Y    GLP  0     **** GLP Y 13
+     5 ZIL7        5 GROUP        1 Z    ZIL  0     ROOT ZIL Z 19
+     6 GLL5        2 GROUP        1 Z    GLL  0     **** GLL Z 20
+@<TRIPOS>SET
+

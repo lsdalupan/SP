@@ -1,0 +1,47 @@
+#    Name: 1qw6_H4B_1_INTS_M
+#    Modification time : Mon Mar 24 23:59:52 2014
+
+@<TRIPOS>MOLECULE
+1qw6_H4B_1_INTS_M
+   23     0     9     0     0
+SMALL
+NO_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 O          -0.2220    2.7980   49.7485 O.2       1 ALC1        0.0000 
+      2 O           1.0510    2.3610   50.4700 O.2       7 ALL1        0.0000 
+      3 O          -1.4950    3.2350   49.0270 O.2       4 ALP1        0.0000 
+      4 N           5.6250    1.5810   50.2495 N.am      2 SEC2        0.0000 
+      5 N           5.6350    3.0810   50.7270 N.am      8 SEL2        0.0000 
+      6 N           5.6150    0.0810   49.7720 N.am      5 SEP2        0.0000 
+      7 CA          1.4555    4.3630   48.0140 C.3       3 GLC5        0.0000 
+      8 CA          3.3590    3.5680   47.9460 C.3       9 GLL5        0.0000 
+      9 CA         -0.4480    5.1580   48.0820 C.3       6 GLP5        0.0000 
+     10 O           1.9745    4.2295   46.1395 O.2       1 ALC1        0.0000 
+     11 O           3.2960    3.9600   46.6600 O.2       7 ALL1        0.0000 
+     12 O           0.6530    4.4990   45.6190 O.2       4 ALP1        0.0000 
+     13 CA          4.4430    5.8340   48.5710 C.3       3 GLC5        0.0000 
+     14 CA          5.5610    4.9430   46.8710 C.3       9 GLL5        0.0000 
+     15 CA          3.3250    6.7250   50.2710 C.3       6 GLP5        0.0000 
+     16 CA          7.8665    6.7675   47.5475 C.3       3 GLC5        0.0000 
+     17 CA          6.9580    5.2420   46.2690 C.3       9 GLL5        0.0000 
+     18 CA          8.7750    8.2930   48.8260 C.3       6 GLP5        0.0000 
+     19 O           6.4785    8.5890   44.8735 O.2       1 ALC1        0.0000 
+     20 O           6.2020    7.3750   45.4840 O.2       7 ALL1        0.0000 
+     21 O           6.7550    9.8030   44.2630 O.2       4 ALP1        0.0000 
+     22 CA          3.6953    5.7862   45.5485 C.3       3 GLC5        0.0000 
+     23 CA          2.3580    6.9050   44.6930 C.3       6 GLP5        0.0000 
+@<TRIPOS>BOND
+@<TRIPOS>SUBSTRUCTURE
+     1 ALC1        1 GROUP        1 X    ALC  0     ROOT ALC X 1
+     2 SEC2        4 GROUP        1 X    SEC  0     **** SEC X 2
+     3 GLC5        7 GROUP        1 X    GLC  0     **** GLC X 6
+     4 ALP1        3 GROUP        1 Y    ALP  0     ROOT ALP Y 8
+     5 SEP2        6 GROUP        1 Y    SEP  0     **** SEP Y 9
+     6 GLP5        9 GROUP        1 Y    GLP  0     **** GLP Y 13
+     7 ALL1        2 GROUP        1 Z    ALL  0     ROOT ALL Z 15
+     8 SEL2        5 GROUP        1 Z    SEL  0     **** SEL Z 16
+     9 GLL5        8 GROUP        1 Z    GLL  0     **** GLL Z 20
+@<TRIPOS>SET
+
