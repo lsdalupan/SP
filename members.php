@@ -1,3 +1,5 @@
+<!-- This page shows the list of members of the system. Only the Administrators can access this page. It allows them to add, edit and delete users. -->
+
 <?php  
     session_start();  
   
@@ -5,6 +7,26 @@
   
         header("Location: login.php");//redirect to login page to secure the welcome page without login access.  
     }  
+    $dbcon=mysqli_connect("localhost","root","dash","SP");  
+    $username= $_SESSION['username'];
+    $getUser_query="Select * from Users where username='$username'";
+    $run=mysqli_query($dbcon,$getUser_query);// run the sql query.  
+    if($run){
+    while($info=mysqli_fetch_array($run)){
+        $login_id=$info[0];
+        $login_name=$info[1]; 
+        $login_fname=$info[3];  
+        $login_mname=$info[4]; 
+        $login_lname=$info[5];  
+        $login_email=$info[6];  
+        $login_type=$info[7];  
+        
+    }
+   
+    }
+    else{
+         echo "<script>alert('ERROR!')</script>";  
+    }
   
 ?>
 
@@ -115,8 +137,14 @@
                             }
                         
                         ?></td> 
-                        <td data-title="Edit"><a href="editUser.php?edit=<?php echo $user_id ?>"  onclick="return confirm('Are you sure you want to edit this user?');"><button class="btn amber darken-1 waves-effect waves-block waves-light">Edit</button></a></td> 
-                        <td data-title="Delete"><a href="deleteUser.php?del=<?php echo $user_id ?>"  onclick="return confirm('Are you sure you want to delete this user?');"> <button class="btn red darken-2 waves-effect waves-block waves-light">Delete</button></a></td> 
+                       <?php if($user_id != $login_id){?>
+                        
+                       <?php} else {?>
+                       
+                            <td data-title="Edit"><a href="editUser.php?edit=<?php echo $user_id ?>"  onclick="return confirm('Are you sure you want to edit this user?');"><button class="btn amber darken-1 waves-effect waves-block waves-light">Edit</button></a></td> 
+                            <td data-title="Delete"><a href="deleteUser.php?del=<?php echo $user_id ?>"  onclick="return confirm('Are you sure you want to delete this user?');"> <button class="btn red darken-2 waves-effect waves-block waves-light">Delete</button></a></td>
+                      <?php } ?>
+                      
                     </tr>  
             
                     <?php }} ?>  
@@ -124,11 +152,13 @@
                 </table> 
                 </div> <!--end of div row-->
               </div>    <!--end of div table-->
-              
+             
+               <button class="btn waves-effect waves-block waves-light " onclick="location.href='registration.php'">Add User</button>
+             
             </div> <!--end of main-->
         </div>
-        
-            <button class="btn waves-effect waves-block waves-light" onclick="location.href='registration.php'">Add User</button>
+           
+           
         
     </body>  
     

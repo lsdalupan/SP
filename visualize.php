@@ -1,3 +1,5 @@
+<!-- This visualizes the protein uploaded by the user.  -->
+
 <?php  
     session_start();  
   

@@ -1,3 +1,5 @@
+<!-- This page shows all the proteins in the database. Proteins are divided into 3 sections: All, With Structures and Without Structures -->
+
 <?php  
     session_start();  
   

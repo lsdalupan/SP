@@ -1,3 +1,6 @@
+<!-- This views the profile of the user logged in. It also allows the user to update its own user information -->
+
+
 <?php
      session_start();  
   
@@ -178,21 +181,44 @@
         
 //             UPDATE players SET firstname='$firstname', lastname='$lastname' WHERE id='$id'
 //             user_id,username,password,fname,mname,lname,email,user_type
-        $update_query="UPDATE Users SET username='$user_name', password='$user_pass', fname= '$user_fname', mname='$user_mname', lname='$user_lname', email='$user_email', user_type='$user_type' WHERE user_id='$update_id'";//update query  
+   $update_query="UPDATE Users SET username='$user_name', password='$user_pass', fname= '$user_fname', mname='$user_mname', lname='$user_lname', email='$user_email', user_type='$user_type' WHERE username='$update_id'";//update query 
 //         $run=$dbcon->query($update_query);
+     $check_username="Select * from Users where username='$user_name'";
         
-        if($dbcon->query($update_query))  
-        {  
-            echo "<script>window.open('members.php','_self')</script>";  
+        if(!(strcmp($update_name,$user_name))){
+          
+            if($dbcon->query($update_query))  
+            {  
+                echo "<script>alert('This will automatically logout to save the changes!')</script>";  
+                session_destroy();  
+                echo "<script>window.open('login.php','_self')</script>";  
+            }
+            else{
+                echo "<script>alert('ERROR!')</script>";  
+            }
         }
         else{
-            echo "<script>alert('ERROR!')</script>";  
+            
+        
+            if(!mysqli_num_rows($dbcon->query($check_username))){
+                if($dbcon->query($update_query))  
+                    {  
+                        echo "<script>alert('This will automatically logout to save the changes!')</script>";  
+                        session_destroy();  
+                        echo "<script>window.open('login.php','_self')</script>";  
+                    }
+                    else{
+                        echo "<script>alert('ERROR, Last!')</script>";  
+                    }
+      
+            }
+            else{
+                        echo "<script>alert('ERROR! Username is already used!!')</script>";  
+            }
+        
         }
     }
     
-    if(isset($_POST['cancel'])){
-         echo "<script>window.open('members.php','_self')</script>";  
-    }
   
 ?>  
     

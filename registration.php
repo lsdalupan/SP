@@ -1,3 +1,5 @@
+<!-- This allows the adminstrators to add new users in the system -->
+
 <?php
      session_start();  
   
@@ -37,7 +39,7 @@
                 include("header.php");  
             ?>
             
-             <h4 class="header light"> Add User </h4>
+             <h4 class="header light center"> Add User </h4>
             
             <div class="reg-form basic-form container">
                 <form role="form" method="post" class="col s12" action="registration.php">
@@ -152,16 +154,20 @@ if(isset($_POST['register'])){
     //insert the user into the database.  
     
     $insert_user="insert into Users (user_id,username,password,fname,mname,lname,email,user_type) VALUES ('','$user_name','$user_pass','$user_fname','$user_mname','$user_lname','$user_email','$user_type')";  
-    
-     
-    if($dbcon->query($insert_user))  
-    {  
-        echo "<script>window.open('members.php','_self')</script>";  
+    $check_username="Select * from Users where username='$user_name'";
+//      check if username is already in the database
+   if(!mysqli_num_rows($dbcon->query($check_username))){
+        if($dbcon->query($insert_user)) {  
+            echo "<script>window.open('members.php','_self')</script>";  
+        }
+        else{
+             echo "<script>alert('ERROR!!')</script>";  
+            echo "<script>window.open('members.php','_self')</script>";  
+        }
     }
     else{
-        echo "<script>alert('ERROR!')</script>";  
+         echo "<script>alert('ERROR! Username is already used!!')</script>";  
     }
-    
    
 }
 

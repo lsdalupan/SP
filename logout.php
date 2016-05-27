@@ -1,3 +1,5 @@
+<!-- It logouts the users, destroys the seesion and returns to login page -->
+
 <?php
     session_start();//session is a way to store information (in variables) to be used across multiple pages.  
     session_destroy();  

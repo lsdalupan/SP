@@ -1,3 +1,5 @@
+<!-- This shows the details of the selected protein and visualizes its structures.  -->
+
 <?php  
     session_start();  
   

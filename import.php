@@ -1,3 +1,5 @@
+<!-- This page allows the administrators to import and export csv file of the protein database -->
+
 <?php  
     session_start();  
   

@@ -1,3 +1,5 @@
+<!-- This serves as the home page of the web application -->
+
 <?php  
     session_start();  
   

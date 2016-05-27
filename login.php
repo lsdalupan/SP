@@ -1,5 +1,5 @@
 <!--  
-    done with the login module 
+    Logins the user given that the credentials are correct and in the database
 -->
 
 <?php

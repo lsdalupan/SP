@@ -1,6 +1,8 @@
+<!-- This deletes the user with the delete_id in the url -->
+
 <?php   
-    $dbcon=mysqli_connect("localhost","root","dash","SP");  
-    $delete_id=$_GET['del'];  
+    $dbcon=mysqli_connect("localhost","root","dash","SP");  //connect db
+    $delete_id=$_GET['del'];  //user_id
 
 
     $timestamp = date('Y-m-d G:i:s');
@@ -8,7 +10,7 @@
     $run=$dbcon->query($delete_query);
     if($run)  
     {  
-    //javascript function to open in the same window   
+    //if success->return to members page   
         echo "<script>window.open('members.php','_self')</script>";  
     }  
     else{

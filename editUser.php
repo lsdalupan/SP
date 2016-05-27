@@ -1,3 +1,5 @@
+<!-- This allows the administrators to edit or update the information of a particular user -->
+
 <?php
      session_start();  
   
@@ -62,8 +64,8 @@
             <?php
                 include("header.php");  
             ?>
-            
-           <h4 class="header light"> Update User </h4>
+<!--   form with user's info to be updated           -->
+           <h4 class="header light center"> Update User </h4>
             <div class="reg-form basic-form container">
                 <form role="form" method="post" class="col s12" action="">
                     <div class="row">
@@ -113,12 +115,7 @@
                         </script>
                     <div class="row">
                       <div class="input-field col s12">
-                            <!--<select id="type" name="type">
-                                <option value="" disabled selected>Choose User Type</option>
-                                <option value="1">Administrator</option>
-                                <option value="2">Member</option>
-                            </select>-->
-                            
+                    
                             <select name="type" id="type" required >
                                 <option value="" disabled selected>Choose User Type</option>
                                 <option value="1" <?php if($update_type == "1") echo "Selected"; ?> >Administrator</option>
@@ -128,11 +125,6 @@
                         </div>
                     </div>   
                     <div class="row right">
-                            
-                            <!--<button class="btn orange darken-1  waves-effect waves-light " type="submit" name="cancel" value="cancel">Cancel
-                            <i class="mdi-content-remove-circle-outline right"></i>
-                            </button>-->
-                            
                             
                             
                             <button class="btn blue waves-effect waves-light  " type="submit" name="update" value="update">Submit
@@ -147,6 +139,7 @@
         </div>
     </body>
     <script>
+    
         var password = document.getElementById("password")
         var confirm_password = document.getElementById("confirm_password");
 
@@ -179,16 +172,39 @@
 //             UPDATE players SET firstname='$firstname', lastname='$lastname' WHERE id='$id'
 //             user_id,username,password,fname,mname,lname,email,user_type
         $update_query="UPDATE Users SET username='$user_name', password='$user_pass', fname= '$user_fname', mname='$user_mname', lname='$user_lname', email='$user_email', user_type='$user_type' WHERE user_id='$update_id'";//update query  
-//         $run=$dbcon->query($update_query);
+    $check_username="Select * from Users where username='$user_name'";
         
-        if($dbcon->query($update_query))  
-        {  
-            echo "<script>window.open('members.php','_self')</script>";  
+        if(!(strcmp($update_name,$user_name))){
+            
+            if($dbcon->query($update_query))  
+            {  
+                echo "<script>alert('Successfully updated the account!')</script>";  
+                echo "<script>window.open('members.php','_self')</script>";  
+            }
+            else{
+                echo "<script>alert('ERROR!')</script>";  
+            }
         }
         else{
-            echo "<script>alert('ERROR!')</script>";  
+           
+        
+            if(!mysqli_num_rows($dbcon->query($check_username))){
+                if($dbcon->query($update_query))  
+                    {  
+                        echo "<script>alert('Successfully updated the account!')</script>";  
+                        echo "<script>window.open('members.php','_self')</script>";  
+                    }
+                    else{
+                        echo "<script>alert('ERROR, Last!')</script>";  
+                    }
+      
+            }
+            else{
+                        echo "<script>alert('ERROR! Username is already used!!')</script>";  
+            }
+        
         }
-    }
+    } //end of submit
     
     if(isset($_POST['cancel'])){
          echo "<script>window.open('members.php','_self')</script>";  
